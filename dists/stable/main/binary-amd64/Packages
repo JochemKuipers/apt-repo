@@ -68,3 +68,59 @@ MD5sum: cc9ba5e197d608b45f99a13cb49756ab
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
+Package: uniwill-control
+Source: uniwill-laptop
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 102
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6widgets6t64 (>= 6.1.2), libstdc++6 (>= 5), uniwill-laptop-dkms
+Homepage: https://github.com/JochemKuipers/uniwill-laptop
+Priority: optional
+Section: misc
+Filename: pool/main/u/uniwill-laptop/uniwill-control_1.0-1_amd64.deb
+Size: 29590
+SHA256: d7211720e2c1e945ab1df8154cf2ead07c282f58576808411e7d3fd77f45981e
+SHA1: bf88951f98f26cfce1e0f9e1ae704266dda55d5b
+MD5sum: 4eadaa86a7135dc482ed0208820c4e67
+Description: Qt control app for Uniwill / Medion ERAZER laptops
+ Desktop app to set keyboard RGB, the front LED strip, Fn lock, USB-C
+ power split, extra GPU power, and to read temperatures and fans.
+
+Package: uniwill-laptop
+Version: 1.0-1
+Architecture: all
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 8
+Depends: uniwill-laptop-dkms, uniwill-control
+Homepage: https://github.com/JochemKuipers/uniwill-laptop
+Priority: optional
+Section: misc
+Filename: pool/main/u/uniwill-laptop/uniwill-laptop_1.0-1_all.deb
+Size: 1474
+SHA256: 80ee357d7c81acd30349fffcb3b226b5fcad57deb68297f1f7d79930a79610c1
+SHA1: 2f4578a7decf2e02473bb0a0e6baa498c7865993
+MD5sum: 7c8eb4c52ede9d84a74585da2d98e8e6
+Description: Uniwill laptop extras (driver and control app)
+ Metapackage for the DKMS driver and the Qt control app.
+
+Package: uniwill-laptop-dkms
+Source: uniwill-laptop
+Version: 1.0-1
+Architecture: all
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 117
+Depends: dkms
+Homepage: https://github.com/JochemKuipers/uniwill-laptop
+Priority: optional
+Section: misc
+Filename: pool/main/u/uniwill-laptop/uniwill-laptop-dkms_1.0-1_all.deb
+Size: 18384
+SHA256: 8ecf918d45c123a7bf1615411da2d040ea2076330d8257c99850f7b73e88536d
+SHA1: 7d8b57de4724290bdbc207dd1564c545ab5451b1
+MD5sum: 1ee2e00ae8d52099d3e940bff442d28e
+Description: DKMS driver for Uniwill / Medion ERAZER laptops
+ Out-of-tree uniwill-laptop kernel module with a DMI match for the
+ MEDION ERAZER Major 15 X1. Builds against the running kernel via DKMS
+ and overrides the in-tree module when present.
+
