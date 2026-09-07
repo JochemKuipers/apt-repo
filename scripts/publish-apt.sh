@@ -84,11 +84,10 @@ SignWith: ${KEYID}
 EOF
 cat > "${PAGES}/conf/options" <<EOF
 verbose
-Ignore: missingfield
 EOF
 
 for deb in "${WORKDIR}"/*.deb; do
-	reprepro -b "${PAGES}" -S misc includedeb "${CODENAME}" "${deb}"
+	reprepro -b "${PAGES}" --ignore=missingfield -S misc includedeb "${CODENAME}" "${deb}"
 done
 
 cp -a "${GNUPGHOME}/public.asc" "${PAGES}/jochem-archive-keyring.asc"
