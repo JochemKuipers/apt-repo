@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Jochem Kuipers
+Label: Jochem APT
+Codename: stable
+Date: Mon, 07 Sep 2026 16:09:47 UTC
+Architectures: amd64 arm64
+Components: main
+Description: Personal APT repository
+MD5Sum:
+ 3fbf01098b0f25e3d689f9f3e87b4521 3198 main/binary-amd64/Packages
+ f0b27b6ae4759eec96284eaf112a7497 1619 main/binary-amd64/Packages.gz
+ e89f8dee08f193fa1d1c63b4573d33b2 114 main/binary-amd64/Release
+ a78a8bf365c81b4dab3dbc8cc5eb55c4 1554 main/binary-arm64/Packages
+ 1e389000d7a132b251446e8679a1f88b 887 main/binary-arm64/Packages.gz
+ 6969440097f582c18619959fdd777d5c 114 main/binary-arm64/Release
+SHA1:
+ 4097b2df79ca6acf5a47861fbf111da7c9fbb750 3198 main/binary-amd64/Packages
+ a9c9be65bf8fa4388bb6b594c9bbb47373e76a0a 1619 main/binary-amd64/Packages.gz
+ 9c094b045f41fd8c56ac50cd90e3ab29b39a1a63 114 main/binary-amd64/Release
+ c81745094c4681026e73c71b04433d44a76799f5 1554 main/binary-arm64/Packages
+ 6860adb9950b3ed5b966041423dcff351b44eefd 887 main/binary-arm64/Packages.gz
+ e7bd2711cec206e220e8ac962c6529ebcae37626 114 main/binary-arm64/Release
+SHA256:
+ 63265e61c0f7f4eca5fe140a8415db5ed4bb1058c6843c388e9e0055345b84a6 3198 main/binary-amd64/Packages
+ b9b354861ec41d0c0bc1b5b36f90da0e2df5451707d0eeb5722187070c2d9e53 1619 main/binary-amd64/Packages.gz
+ 297474f10c6bb1b66bafb6e046044425b74c29a40d9d4ebf9a166347d3a6d9e5 114 main/binary-amd64/Release
+ 1618b39b519be1aa30a161e25cb0fee8ae8680729cdc1f9a53e07f7b52d34519 1554 main/binary-arm64/Packages
+ aadaf7a778a4499195216cb6516ad43e4488238682d83ac00ac239504fc4b168 887 main/binary-arm64/Packages.gz
+ 7a8a4032106532f9f676500fdde6bff92c077a3c2a0356fbd9b4abf2a08e3a6c 114 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRT0axRz+Y7Qa4GFfkz0dGn9iExSwUCap7hywAKCRAz0dGn9iEx
+S3Q3AP476oWWJ0obo95UIy7UCZ/js+nFTygTYCiYYs5RWzCPmQD/WCkGJukp52sA
+oPbm32bSA9HB24OsYeoQ8OERFc/XJQQ=
+=jbTi
+-----END PGP SIGNATURE-----

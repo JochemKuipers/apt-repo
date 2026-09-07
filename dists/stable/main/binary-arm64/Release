@@ -1,0 +1,5 @@
+Component: main
+Origin: Jochem Kuipers
+Label: Jochem APT
+Architecture: arm64
+Description: Personal APT repository

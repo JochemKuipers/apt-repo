@@ -1,0 +1,15 @@
+Types: deb
+URIs: https://jochemkuipers.github.io/apt-repo
+Suites: stable
+Components: main
+Architectures: amd64 arm64
+Signed-By:
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
+ .
+ mDMEap7d3BYJKwYBBAHaRw8BAQdApUEFxQfUc5zWrY4Nd4rFSsm/dc3k8H71jCAC
+ thsonm60HkpvY2hlbSBBUFQgPGpvY2hlbUBrdWlwZXJzLmNjPoiQBBMWCgA4FiEE
+ U9GsUc/mO0GuBhX5M9HRp/YhMUsFAmqe3dwCGwMFCwkIBwIGFQoJCAsCBBYCAwEC
+ HgECF4AACgkQM9HRp/YhMUuavAEAicOyhOXhwv7tYuGsK+6ya++usFD3Bgz9v1Pv
+ 7Pd0XD4BAJLVHFcMvSzN1FRVlziHl2YL87ZXE7FL60ldY9Obn4AG
+ =t+AJ
+ -----END PGP PUBLIC KEY BLOCK-----

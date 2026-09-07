@@ -1,0 +1,70 @@
+Package: adguard-tray
+Version: 1.10.0-1
+Architecture: all
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 515
+Depends: python3:any, python3, python3-pyqt6, python3-yaml, libnotify-bin, pkexec | policykit-1
+Recommends: libnss3-tools
+Homepage: https://github.com/RiDDiX/adguard-tray
+Priority: optional
+Section: misc
+Filename: pool/main/a/adguard-tray/adguard-tray_1.10.0-1_all.deb
+Size: 103856
+SHA256: 928b41c021af1a3473f9a35609d975b011feb72f3c423eb12f2ebd236c2c093f
+SHA1: d1320d515b3f078c9352c2944202442115d31f32
+MD5sum: edbb15733677c71138130440c459d40e
+Description: system tray monitor and controller for adguard-cli
+ Shows AdGuard status in the system tray, starts and stops adguard-cli,
+ and manages filters, userscripts, HTTPS certificates and activity
+ statistics. Works on Wayland and X11 (KDE Plasma, Hyprland, and others).
+ .
+ This package builds the upstream project at
+ https://github.com/RiDDiX/adguard-tray without modifying it.
+ adguard-cli itself is not included; install it with the official
+ upstream script.
+
+Package: howdy-next
+Version: 3.4.0-6
+Architecture: amd64
+Maintainer: Jochem Kuipers <JochemKuipers+howdy-next-apt@users.noreply.github.com>
+Installed-Size: 66674
+Depends: libacl1 (>= 2.2.23), libavcodec61 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcurl4t64 (>= 7.16.2), libevdev2 (>= 0.9.1), libgcc-s1 (>= 3.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.32.0), libgtk-3-0t64 (>= 3.0.0), libjpeg62-turbo (>= 1.3.1), libpam0g (>= 1.1.0), libpng16-16t64 (>= 1.6.46), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.5), libtiff6 (>= 4.5.0~rc1), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), zlib1g (>= 1:1.1.4)
+Conflicts: howdy
+Replaces: howdy
+Provides: howdy
+Homepage: https://codeberg.org/nathawat/howdy-next
+Priority: optional
+Section: misc
+Filename: pool/main/h/howdy-next/howdy-next_3.4.0-6_amd64.deb
+Size: 20431376
+SHA256: a4e17e7ab2c3ce99cf48e493b62ce1aa7bdb9bc76e89ccb669c40109c5528fee
+SHA1: cb5465ffa05ea9aa95b5b50d2a29e3b05539ed54
+MD5sum: 1bde340ff2796dc3ad94fc27da6d3bf7
+Description: C++ facial-recognition authentication for Linux
+ Howdy Next is a C++ rewrite of Howdy. It provides a PAM module and
+ CLI for Windows Hello-style facial authentication on Linux.
+ .
+ This unofficial package vendors OpenCV 5, yyjson 0.12, and inih 61
+ because Debian trixie does not satisfy those version requirements.
+ Face models are not included; run
+ "sudo howdy download-models" after install.
+ .
+ Howdy is weaker than a password. Never use it as the sole
+ authentication method. This package does not enable PAM automatically.
+
+Package: skills-manager
+Version: 1.37.1
+Architecture: amd64
+Installed-Size: 74199
+Maintainer: tianliang
+Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
+Priority: optional
+Section: misc
+Filename: pool/main/s/skills-manager/skills-manager_1.37.1_amd64.deb
+Size: 24847530
+SHA256: 029236fc9c06f2c81a154a063c9f53404b9694909be7f09d6629e95354c2632c
+SHA1: 94fee847dd4975546733d2b3309c9b80a32b8ba6
+MD5sum: cc9ba5e197d608b45f99a13cb49756ab
+Description: Skills Manager - AI Agent Skills Central Manager
+ (none)
+

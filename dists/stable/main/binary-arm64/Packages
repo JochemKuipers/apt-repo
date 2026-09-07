@@ -1,0 +1,41 @@
+Package: adguard-tray
+Version: 1.10.0-1
+Architecture: all
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 515
+Depends: python3:any, python3, python3-pyqt6, python3-yaml, libnotify-bin, pkexec | policykit-1
+Recommends: libnss3-tools
+Homepage: https://github.com/RiDDiX/adguard-tray
+Priority: optional
+Section: misc
+Filename: pool/main/a/adguard-tray/adguard-tray_1.10.0-1_all.deb
+Size: 103856
+SHA256: 928b41c021af1a3473f9a35609d975b011feb72f3c423eb12f2ebd236c2c093f
+SHA1: d1320d515b3f078c9352c2944202442115d31f32
+MD5sum: edbb15733677c71138130440c459d40e
+Description: system tray monitor and controller for adguard-cli
+ Shows AdGuard status in the system tray, starts and stops adguard-cli,
+ and manages filters, userscripts, HTTPS certificates and activity
+ statistics. Works on Wayland and X11 (KDE Plasma, Hyprland, and others).
+ .
+ This package builds the upstream project at
+ https://github.com/RiDDiX/adguard-tray without modifying it.
+ adguard-cli itself is not included; install it with the official
+ upstream script.
+
+Package: skills-manager
+Version: 1.37.1
+Architecture: arm64
+Installed-Size: 70343
+Maintainer: tianliang
+Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
+Priority: optional
+Section: misc
+Filename: pool/main/s/skills-manager/skills-manager_1.37.1_arm64.deb
+Size: 26191232
+SHA256: cac297e811aa623281f1be4e2ec607b482c25da374165d6a92d74a84a82e5bad
+SHA1: 555fb844b384141445516b137ff233a0d4bdaa21
+MD5sum: 6755e3f718f74023547dc140e8dbc9f8
+Description: Skills Manager - AI Agent Skills Central Manager
+ (none)
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jochem APT repository</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 44rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    pre { background: #111; color: #eee; padding: 1rem; overflow-x: auto; }
+    code { font-family: ui-monospace, monospace; }
+  </style>
+</head>
+<body>
+  <h1>Jochem APT repository</h1>
+  <p>Unofficial personal packages of howdy-next, adguard-tray, and skills-manager.</p>
+  <h2>Install</h2>
+  <pre><code>curl -fsSL https://jochemkuipers.github.io/apt-repo/jochem.sources \
+  | sudo tee /etc/apt/sources.list.d/jochem.sources
+sudo apt update
+sudo apt install howdy-next adguard-tray skills-manager</code></pre>
+</body>
+</html>
