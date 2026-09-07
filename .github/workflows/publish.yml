@@ -1,0 +1,71 @@
+name: Publish
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: apt-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install reprepro
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends reprepro gnupg
+
+      - name: Fetch existing site
+        continue-on-error: true
+        run: |
+          git clone --depth 1 --branch gh-pages \
+            "https://github.com/${{ github.repository }}.git" pages
+
+      - name: Fetch debs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/fetch-debs.sh
+
+      - name: Build signed APT repository
+        id: publish
+        env:
+          APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
+          APT_SIGNING_KEY_PASSPHRASE: ${{ secrets.APT_SIGNING_KEY_PASSPHRASE }}
+          APT_REPO_URI: https://jochemkuipers.github.io/apt
+        run: bash scripts/publish-apt.sh
+
+      - name: Deploy GitHub Pages
+        if: steps.publish.outputs.skip != 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./pages
+          force_orphan: false
+          enable_jekyll: false
+
+      - name: Summary
+        run: |
+          {
+            echo "## Jochem APT"
+            if [[ "${{ steps.publish.outputs.skip }}" == "true" ]]; then
+              echo
+              echo "Skipped republish; pool already has the fetched debs."
+            fi
+            echo
+            echo "Install from \`https://jochemkuipers.github.io/apt\`"
+            echo
+            echo '```sh'
+            echo 'curl -fsSL https://jochemkuipers.github.io/apt/jochem.sources | sudo tee /etc/apt/sources.list.d/jochem.sources'
+            echo 'sudo apt update'
+            echo 'sudo apt install howdy-next adguard-tray skills-manager'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
