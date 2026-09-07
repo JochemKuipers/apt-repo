@@ -125,12 +125,12 @@ cat > "${PAGES}/index.html" <<EOF
 </head>
 <body>
   <h1>Jochem APT repository</h1>
-  <p>Unofficial personal packages of howdy-next, adguard-tray, and skills-manager.</p>
+  <p>Unofficial personal packages of howdy-next, adguard-tray, skills-manager, and uniwill-laptop.</p>
   <h2>Install</h2>
   <pre><code>curl -fsSL ${URI}/jochem.sources \\
   | sudo tee /etc/apt/sources.list.d/jochem.sources
 sudo apt update
-sudo apt install howdy-next adguard-tray skills-manager</code></pre>
+sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop</code></pre>
 </body>
 </html>
 EOF
