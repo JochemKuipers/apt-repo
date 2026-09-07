@@ -40,7 +40,7 @@ jobs:
         env:
           APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
           APT_SIGNING_KEY_PASSPHRASE: ${{ secrets.APT_SIGNING_KEY_PASSPHRASE }}
-          APT_REPO_URI: https://jochemkuipers.github.io/apt
+          APT_REPO_URI: https://jochemkuipers.github.io/apt-repo
         run: bash scripts/publish-apt.sh
 
       - name: Deploy GitHub Pages
@@ -61,10 +61,10 @@ jobs:
               echo "Skipped republish; pool already has the fetched debs."
             fi
             echo
-            echo "Install from \`https://jochemkuipers.github.io/apt\`"
+            echo "Install from \`https://jochemkuipers.github.io/apt-repo\`"
             echo
             echo '```sh'
-            echo 'curl -fsSL https://jochemkuipers.github.io/apt/jochem.sources | sudo tee /etc/apt/sources.list.d/jochem.sources'
+            echo 'curl -fsSL https://jochemkuipers.github.io/apt-repo/jochem.sources | sudo tee /etc/apt/sources.list.d/jochem.sources'
             echo 'sudo apt update'
             echo 'sudo apt install howdy-next adguard-tray skills-manager'
             echo '```'

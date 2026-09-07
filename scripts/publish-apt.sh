@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 OUT="${APT_OUT_DIR:-${ROOT}/out}"
 PAGES="${APT_PAGES_DIR:-${ROOT}/pages}"
-URI="${APT_REPO_URI:-https://jochemkuipers.github.io/apt}"
+URI="${APT_REPO_URI:-https://jochemkuipers.github.io/apt-repo}"
 CODENAME="stable"
 
 if [[ -z "${APT_SIGNING_KEY:-}" ]]; then
