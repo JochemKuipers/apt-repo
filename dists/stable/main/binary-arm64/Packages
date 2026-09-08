@@ -40,7 +40,7 @@ Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
 Package: uniwill-laptop
-Version: 1.0-2
+Version: 1.0.1-1
 Architecture: all
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 8
@@ -48,29 +48,29 @@ Depends: uniwill-laptop-dkms, uniwill-control
 Homepage: https://github.com/JochemKuipers/uniwill-laptop
 Priority: optional
 Section: misc
-Filename: pool/main/u/uniwill-laptop/uniwill-laptop_1.0-2_all.deb
-Size: 1704
-SHA256: e5e1eec5fb84c07170f1764f10a93f122589f56d49c09a814a69928ed61a9f26
-SHA1: b76b2ceeaff18237c09924ce485fb774aeabe3cc
-MD5sum: 76d800d300949b66ffafc2a3df52126b
+Filename: pool/main/u/uniwill-laptop/uniwill-laptop_1.0.1-1_all.deb
+Size: 1616
+SHA256: 0d6fa6a3391ec324b58689e6aa235414c9f24a713940b29bb503d14f58ef1c74
+SHA1: 750f0b0b8806f602d73511c31c0c432e94224fdf
+MD5sum: 67a1be4a67632fc933126c102669f632
 Description: Uniwill laptop extras (driver and control app)
  Metapackage for the DKMS driver and the Qt control app.
 
 Package: uniwill-laptop-dkms
 Source: uniwill-laptop
-Version: 1.0-2
+Version: 1.0.1-1
 Architecture: all
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 117
+Installed-Size: 123
 Depends: dkms
 Homepage: https://github.com/JochemKuipers/uniwill-laptop
 Priority: optional
 Section: misc
-Filename: pool/main/u/uniwill-laptop/uniwill-laptop-dkms_1.0-2_all.deb
-Size: 17980
-SHA256: a276940ffa068b6ca015df3586973fe09f8400b09f56d4b97860b21c40c42e1e
-SHA1: 406b2ca327f1c7663fb3c273ca22e4e67dc51b97
-MD5sum: 8f256192d4d086f9281c03b10f868645
+Filename: pool/main/u/uniwill-laptop/uniwill-laptop-dkms_1.0.1-1_all.deb
+Size: 19480
+SHA256: b6c1a57fdd6c9a831f8fa53df91ca80a7b74b1c67042aef937e43f2906860173
+SHA1: 19b89fdc373deedce7f3564f72db61f7e09a8470
+MD5sum: 65898439b1a13814b7f813b1aeafd1c7
 Description: DKMS driver for Uniwill / Medion ERAZER laptops
  Out-of-tree uniwill-laptop kernel module with a DMI match for the
  MEDION ERAZER Major 15 X1. Builds against the running kernel via DKMS
