@@ -24,18 +24,18 @@ Description: system tray monitor and controller for adguard-cli
  upstream script.
 
 Package: skills-manager
-Version: 1.37.1
+Version: 1.38.0
 Architecture: arm64
-Installed-Size: 70343
+Installed-Size: 70272
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.37.1_arm64.deb
-Size: 26191232
-SHA256: cac297e811aa623281f1be4e2ec607b482c25da374165d6a92d74a84a82e5bad
-SHA1: 555fb844b384141445516b137ff233a0d4bdaa21
-MD5sum: 6755e3f718f74023547dc140e8dbc9f8
+Filename: pool/main/s/skills-manager/skills-manager_1.38.0_arm64.deb
+Size: 26191554
+SHA256: 6e9e688061ed0f87e6d6a1903797820a1df62887c8fd1ea2ee9583591d35cbfa
+SHA1: 57404b1c83b75f4dc211a37c3a73e88a7d4b3560
+MD5sum: dd0d46dbbc4d93ad20594468b41e5f14
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
