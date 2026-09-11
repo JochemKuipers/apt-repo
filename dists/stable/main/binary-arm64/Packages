@@ -23,6 +23,26 @@ Description: system tray monitor and controller for adguard-cli
  adguard-cli itself is not included; install it with the official
  upstream script.
 
+Package: dawnpro-gui
+Version: 1.1.1-1
+Architecture: all
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 61
+Depends: python3, python3-usb, python3-gi, gir1.2-gtk-3.0
+Homepage: https://github.com/shaypower/DawnPro-GUI
+Priority: optional
+Section: misc
+Filename: pool/main/d/dawnpro-gui/dawnpro-gui_1.1.1-1_all.deb
+Size: 10082
+SHA256: e765c20545f0a6c1d30e6301d42d7f0bcf6d36dec13feeda029042104d47c2ec
+SHA1: bc84504a72e3ea5189dc8313ecdcf20e9c642022
+MD5sum: dc87aafc61b5fee97aaa0e1296fecbae
+Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
+ Graphical interface for the Moondrop Dawn Pro USB DAC/AMP. Adjust volume,
+ LED status, gain, and digital filter settings over USB.
+ .
+ Upstream project: https://github.com/shaypower/DawnPro-GUI
+
 Package: skills-manager
 Version: 1.38.0
 Architecture: arm64
