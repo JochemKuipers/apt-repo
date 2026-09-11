@@ -66,6 +66,6 @@ jobs:
             echo '```sh'
             echo 'curl -fsSL https://jochemkuipers.github.io/apt-repo/jochem.sources | sudo tee /etc/apt/sources.list.d/jochem.sources'
             echo 'sudo apt update'
-            echo 'sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop'
+            echo 'sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop dawnpro-gui'
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"

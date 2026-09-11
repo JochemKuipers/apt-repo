@@ -13,6 +13,8 @@ gh release download -R JochemKuipers/adguard-tray \
 	--pattern 'adguard-tray_*.deb' -D "${OUT}" --clobber
 gh release download -R JochemKuipers/uniwill-laptop \
 	--pattern 'uniwill-*.deb' -D "${OUT}" --clobber
+gh release download -R JochemKuipers/DawnPro-GUI \
+	--pattern 'dawnpro-gui_*.deb' -D "${OUT}" --clobber
 
 # Optional: upstream may not ship both arches on every release.
 gh release download -R xingkongliang/skills-manager \
