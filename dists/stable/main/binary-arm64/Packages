@@ -44,18 +44,18 @@ Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
  Upstream project: https://github.com/shaypower/DawnPro-GUI
 
 Package: skills-manager
-Version: 1.38.0
+Version: 1.39.0
 Architecture: arm64
-Installed-Size: 70272
+Installed-Size: 70280
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.38.0_arm64.deb
-Size: 26191554
-SHA256: 6e9e688061ed0f87e6d6a1903797820a1df62887c8fd1ea2ee9583591d35cbfa
-SHA1: 57404b1c83b75f4dc211a37c3a73e88a7d4b3560
-MD5sum: dd0d46dbbc4d93ad20594468b41e5f14
+Filename: pool/main/s/skills-manager/skills-manager_1.39.0_arm64.deb
+Size: 26193250
+SHA256: 2f1ebf04850669c7587d5483c87ad78d1df191f84731e3a65ec4484a7cd88bd8
+SHA1: 6d5fcefac4d4bf2cb2dbf6b1994514d9fbfe91a6
+MD5sum: 31c7305e748a28044b81ae9f209546fb
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
