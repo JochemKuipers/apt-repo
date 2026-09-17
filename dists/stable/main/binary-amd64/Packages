@@ -73,18 +73,18 @@ Description: C++ facial-recognition authentication for Linux
  authentication method. This package does not enable PAM automatically.
 
 Package: skills-manager
-Version: 1.39.0
+Version: 1.40.0
 Architecture: amd64
-Installed-Size: 74265
+Installed-Size: 74200
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.39.0_amd64.deb
-Size: 24878570
-SHA256: 9ace41ef823c017b55393ae193fc1b8218503a488bf20552c7e99582d604240f
-SHA1: f19ad73613b6666c38f4b9ee62f424a88e626b8e
-MD5sum: 8a8df1e2e744a69553437efb9481fb4a
+Filename: pool/main/s/skills-manager/skills-manager_1.40.0_amd64.deb
+Size: 24851944
+SHA256: afad9578554bd7495eb96cfadc192fc9a3a6ee9b0790563832f32199da62b158
+SHA1: cd58fcc2610d64d292b53bb4d964f7e9d07882a3
+MD5sum: 61937fc90e88eabf3215ea4f1d7d70a6
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
