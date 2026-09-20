@@ -88,6 +88,22 @@ MD5sum: 61937fc90e88eabf3215ea4f1d7d70a6
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
+Package: thrm
+Version: 3.7.0
+Architecture: amd64
+Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libhidapi-hidraw0
+Recommends: bluez
+Maintainer: TIANLI0 <wutianli@tianli0.top>
+Priority: optional
+Section: misc
+Filename: pool/main/t/thrm/thrm_3.7.0_amd64.deb
+Size: 11225592
+SHA256: 0edb5a374b4addf04c6128c80af7e6937235485d00f1d22f08392fd4d06f3109
+SHA1: bf3aafa2a292619bfae870dd6409912924824506
+MD5sum: f4f3c24e8f0b35c734d442d63950f6ca
+Description: THRM
+ Flydigi BS series cooler and multi-brand fan controller.
+
 Package: uniwill-control
 Source: uniwill-laptop
 Version: 1.0.1-1
