@@ -44,7 +44,7 @@ Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
  Upstream project: https://github.com/shaypower/DawnPro-GUI
 
 Package: howdy-next
-Version: 3.4.1-1
+Version: 3.4.1-2
 Architecture: amd64
 Maintainer: Jochem Kuipers <JochemKuipers+howdy-next-apt@users.noreply.github.com>
 Installed-Size: 66840
@@ -55,11 +55,11 @@ Provides: howdy
 Homepage: https://codeberg.org/nathawat/howdy-next
 Priority: optional
 Section: misc
-Filename: pool/main/h/howdy-next/howdy-next_3.4.1-1_amd64.deb
-Size: 20493460
-SHA256: 0ab3bd19cefa744205423e442c847ec0f0bff73c62ca272cd5070c33783720e2
-SHA1: 5754d82c6d386a260ee27ea7e25b53aef37cae3c
-MD5sum: 2e8f0e858551cca28fd45e26ffadd815
+Filename: pool/main/h/howdy-next/howdy-next_3.4.1-2_amd64.deb
+Size: 20493572
+SHA256: 9edd7bfa169b3cd5cef803be8697ece8234e09c9250a432353ac9a303f9720a6
+SHA1: 612cc41eeb3d5316682568937cf455ff2f2c46d8
+MD5sum: ca6430720506a8bda9dc67c9714a8c9c
 Description: C++ facial-recognition authentication for Linux
  Howdy Next is a C++ rewrite of Howdy. It provides a PAM module and
  CLI for Windows Hello-style facial authentication on Linux.
