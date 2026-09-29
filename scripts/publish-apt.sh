@@ -33,6 +33,10 @@ if [[ -d "${PAGES}/pool" ]]; then
 			break
 		fi
 	done
+	# Drop packages removed upstream (no longer fetched).
+	if find "${PAGES}/pool" -name 'thrm_*.deb' -print -quit | grep -q .; then
+		already=0
+	fi
 fi
 if (( already )); then
 	echo "All fetched debs already in pool; skip republish"
@@ -67,7 +71,7 @@ gpg --batch --armor --export "${KEYID}" > "${GNUPGHOME}/public.asc"
 
 WORKDIR="$(mktemp -d)"
 if [[ -d "${PAGES}/pool" ]]; then
-	find "${PAGES}/pool" -name '*.deb' -exec cp -a {} "${WORKDIR}/" \;
+	find "${PAGES}/pool" -name '*.deb' ! -name 'thrm_*.deb' -exec cp -a {} "${WORKDIR}/" \;
 fi
 cp -a "${OUT}"/*.deb "${WORKDIR}/"
 
@@ -125,12 +129,12 @@ cat > "${PAGES}/index.html" <<EOF
 </head>
 <body>
   <h1>Jochem APT repository</h1>
-  <p>Unofficial personal packages of howdy-next, adguard-tray, skills-manager, uniwill-laptop, dawnpro-gui, and thrm.</p>
+  <p>Unofficial personal packages of howdy-next, adguard-tray, skills-manager, uniwill-laptop, and dawnpro-gui.</p>
   <h2>Install</h2>
   <pre><code>curl -fsSL ${URI}/jochem.sources \\
   | sudo tee /etc/apt/sources.list.d/jochem.sources
 sudo apt update
-sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop dawnpro-gui thrm</code></pre>
+sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop dawnpro-gui</code></pre>
 </body>
 </html>
 EOF
