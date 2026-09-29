@@ -1,18 +1,18 @@
 Package: adguard-tray
-Version: 1.10.0-1
+Version: 2.1.0-1
 Architecture: all
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 515
+Installed-Size: 1377
 Depends: python3:any, python3, python3-pyqt6, python3-yaml, libnotify-bin, pkexec | policykit-1
 Recommends: libnss3-tools
 Homepage: https://github.com/RiDDiX/adguard-tray
 Priority: optional
 Section: misc
-Filename: pool/main/a/adguard-tray/adguard-tray_1.10.0-1_all.deb
-Size: 103856
-SHA256: 928b41c021af1a3473f9a35609d975b011feb72f3c423eb12f2ebd236c2c093f
-SHA1: d1320d515b3f078c9352c2944202442115d31f32
-MD5sum: edbb15733677c71138130440c459d40e
+Filename: pool/main/a/adguard-tray/adguard-tray_2.1.0-1_all.deb
+Size: 241396
+SHA256: 03cb19d152e6aa3bb924f6214de62a1917cfc98bf88007fffe849d1ff04d0653
+SHA1: 9b91b24bc5d8176bd6bdfc8558f269d8e0511390
+MD5sum: 6535c8773950180b78c8ecf6418f8fca
 Description: system tray monitor and controller for adguard-cli
  Shows AdGuard status in the system tray, starts and stops adguard-cli,
  and manages filters, userscripts, HTTPS certificates and activity
@@ -44,18 +44,18 @@ Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
  Upstream project: https://github.com/shaypower/DawnPro-GUI
 
 Package: skills-manager
-Version: 1.40.0
+Version: 1.40.1
 Architecture: arm64
-Installed-Size: 70281
+Installed-Size: 70595
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.40.0_arm64.deb
-Size: 26202196
-SHA256: fee82e4734bccf247e0c728eef6774249d01b096fa669a4f04e8b4237f6dea5e
-SHA1: a9631b79cca8dd4c32d1da41d9ca10f3a2fd183e
-MD5sum: 90a67acf0f1bd9f2de560723223209ba
+Filename: pool/main/s/skills-manager/skills-manager_1.40.1_arm64.deb
+Size: 26303920
+SHA256: 390d2911ad33d7455b433cf909b6d2f2739f59ea7706e0de35472420f34f3e5f
+SHA1: 66854592531d0aea9c4b28b098be2fb3e0f9b1d1
+MD5sum: 1cf5b7a0c9fbfad0ad28435aaa9203c7
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 

@@ -1,18 +1,18 @@
 Package: adguard-tray
-Version: 1.10.0-1
+Version: 2.1.0-1
 Architecture: all
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 515
+Installed-Size: 1377
 Depends: python3:any, python3, python3-pyqt6, python3-yaml, libnotify-bin, pkexec | policykit-1
 Recommends: libnss3-tools
 Homepage: https://github.com/RiDDiX/adguard-tray
 Priority: optional
 Section: misc
-Filename: pool/main/a/adguard-tray/adguard-tray_1.10.0-1_all.deb
-Size: 103856
-SHA256: 928b41c021af1a3473f9a35609d975b011feb72f3c423eb12f2ebd236c2c093f
-SHA1: d1320d515b3f078c9352c2944202442115d31f32
-MD5sum: edbb15733677c71138130440c459d40e
+Filename: pool/main/a/adguard-tray/adguard-tray_2.1.0-1_all.deb
+Size: 241396
+SHA256: 03cb19d152e6aa3bb924f6214de62a1917cfc98bf88007fffe849d1ff04d0653
+SHA1: 9b91b24bc5d8176bd6bdfc8558f269d8e0511390
+MD5sum: 6535c8773950180b78c8ecf6418f8fca
 Description: system tray monitor and controller for adguard-cli
  Shows AdGuard status in the system tray, starts and stops adguard-cli,
  and manages filters, userscripts, HTTPS certificates and activity
@@ -44,10 +44,10 @@ Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
  Upstream project: https://github.com/shaypower/DawnPro-GUI
 
 Package: howdy-next
-Version: 3.4.1-2
+Version: 3.4.2-2
 Architecture: amd64
 Maintainer: Jochem Kuipers <JochemKuipers+howdy-next-apt@users.noreply.github.com>
-Installed-Size: 66840
+Installed-Size: 66876
 Depends: libacl1 (>= 2.2.23), libavcodec61 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcurl4t64 (>= 7.16.2), libevdev2 (>= 0.9.1), libgcc-s1 (>= 3.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.32.0), libgtk-3-0t64 (>= 3.0.0), libjpeg62-turbo (>= 1.3.1), libpam0g (>= 1.1.0), libpng16-16t64 (>= 1.6.46), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.5), libtiff6 (>= 4.5.0~rc1), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), zlib1g (>= 1:1.1.4)
 Conflicts: howdy
 Replaces: howdy
@@ -55,11 +55,11 @@ Provides: howdy
 Homepage: https://codeberg.org/nathawat/howdy-next
 Priority: optional
 Section: misc
-Filename: pool/main/h/howdy-next/howdy-next_3.4.1-2_amd64.deb
-Size: 20493572
-SHA256: 9edd7bfa169b3cd5cef803be8697ece8234e09c9250a432353ac9a303f9720a6
-SHA1: 612cc41eeb3d5316682568937cf455ff2f2c46d8
-MD5sum: ca6430720506a8bda9dc67c9714a8c9c
+Filename: pool/main/h/howdy-next/howdy-next_3.4.2-2_amd64.deb
+Size: 20501328
+SHA256: d625f14d3edadd51abd784bed02594c226cb07ca70fb33cf1c47215aad43082d
+SHA1: 56b6276b34c3822220f9869f60a700c367ad86ef
+MD5sum: 9b1f3a2ddd3156138e87de09993d5d2e
 Description: C++ facial-recognition authentication for Linux
  Howdy Next is a C++ rewrite of Howdy. It provides a PAM module and
  CLI for Windows Hello-style facial authentication on Linux.
@@ -73,36 +73,20 @@ Description: C++ facial-recognition authentication for Linux
  authentication method. This package does not enable PAM automatically.
 
 Package: skills-manager
-Version: 1.40.0
+Version: 1.40.1
 Architecture: amd64
-Installed-Size: 74200
+Installed-Size: 74576
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.40.0_amd64.deb
-Size: 24851944
-SHA256: afad9578554bd7495eb96cfadc192fc9a3a6ee9b0790563832f32199da62b158
-SHA1: cd58fcc2610d64d292b53bb4d964f7e9d07882a3
-MD5sum: 61937fc90e88eabf3215ea4f1d7d70a6
+Filename: pool/main/s/skills-manager/skills-manager_1.40.1_amd64.deb
+Size: 24954730
+SHA256: c8cffe9b83df2cece347d5d3634e060068f646a26146ae6f995d1013f7cf7135
+SHA1: 292ba545aa0bc30776e1e26b488a9abe4a3dfced
+MD5sum: 4fa82e46c1a8ffb049dcdc8a6f71b6bc
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
-
-Package: thrm
-Version: 3.7.0
-Architecture: amd64
-Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libhidapi-hidraw0
-Recommends: bluez
-Maintainer: TIANLI0 <wutianli@tianli0.top>
-Priority: optional
-Section: misc
-Filename: pool/main/t/thrm/thrm_3.7.0_amd64.deb
-Size: 11225592
-SHA256: 0edb5a374b4addf04c6128c80af7e6937235485d00f1d22f08392fd4d06f3109
-SHA1: bf3aafa2a292619bfae870dd6409912924824506
-MD5sum: f4f3c24e8f0b35c734d442d63950f6ca
-Description: THRM
- Flydigi BS series cooler and multi-brand fan controller.
 
 Package: uniwill-control
 Source: uniwill-laptop
