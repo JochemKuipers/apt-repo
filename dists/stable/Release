@@ -1,28 +1,28 @@
 Origin: Jochem Kuipers
 Label: Jochem APT
 Codename: stable
-Date: Thu, 01 Oct 2026 11:40:36 UTC
+Date: Fri, 02 Oct 2026 11:10:12 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Personal APT repository
 MD5Sum:
- 96cd926a6722ea0533443e9598086f34 6267 main/binary-amd64/Packages
- 4ac200fcc8d60a1d7ae481246bead264 2671 main/binary-amd64/Packages.gz
+ 405a4eef6ab92d6dc0719428c65d3d51 6267 main/binary-amd64/Packages
+ 3f896b2961472869ddbae3e940eea9cb 2670 main/binary-amd64/Packages.gz
  e89f8dee08f193fa1d1c63b4573d33b2 114 main/binary-amd64/Release
- a0074f474e153fe0f922c81051e3a945 3688 main/binary-arm64/Packages
- 546753c73adba6b09b8b251da65a160b 1644 main/binary-arm64/Packages.gz
+ 33d567a032922f1011d4631b125d3a23 3688 main/binary-arm64/Packages
+ 6d85a5d0b116adb3c9cb15fee25ab963 1644 main/binary-arm64/Packages.gz
  6969440097f582c18619959fdd777d5c 114 main/binary-arm64/Release
 SHA1:
- 2fa40689a67b4794d42176a5ca24af99a725394e 6267 main/binary-amd64/Packages
- cdaa0b6c6705833e6034de5a1874afb5c51920e8 2671 main/binary-amd64/Packages.gz
+ 49de5748bcf2c2687a4203a10d8279dc8b4d3ca3 6267 main/binary-amd64/Packages
+ 45a4e6732dd656f85653fd41c97dc950cb673cb8 2670 main/binary-amd64/Packages.gz
  9c094b045f41fd8c56ac50cd90e3ab29b39a1a63 114 main/binary-amd64/Release
- 2e39fd96a2f296e9688619be9b8f586ba6d750de 3688 main/binary-arm64/Packages
- 03b4f9224fd891c2e0ebf9afc4c68485cae34b9b 1644 main/binary-arm64/Packages.gz
+ 4cd1c4e31339b3452f755140ea04a199dfc44ebe 3688 main/binary-arm64/Packages
+ 6cd64c5fcfdedd19de7213595bb3438a062722bc 1644 main/binary-arm64/Packages.gz
  e7bd2711cec206e220e8ac962c6529ebcae37626 114 main/binary-arm64/Release
 SHA256:
- cbd8fc014f3e653dae155a4f86a3a2a40740d5ba68578dcea5b15e107ef2b8a0 6267 main/binary-amd64/Packages
- 8e7f12ab96cc1625ef8c443e0d1d6a41a2109badd32b41eac0cb1690eb387598 2671 main/binary-amd64/Packages.gz
+ 91a6c3f463bb1b97d927cd2a1c41340d054d390106668f8b79a37375008d2024 6267 main/binary-amd64/Packages
+ 5fae18e20fbf61bf7a1dbcaad4e5d9443c8ac43611f4b3696c05931ee4366932 2670 main/binary-amd64/Packages.gz
  297474f10c6bb1b66bafb6e046044425b74c29a40d9d4ebf9a166347d3a6d9e5 114 main/binary-amd64/Release
- cfe8c74642e5d12c1e880f725dcaa71d9a6289089eb061fe488f83008a25081c 3688 main/binary-arm64/Packages
- 47905faab41898ad37823affdfed471119bf197a3d0e0031e293b15894bf575b 1644 main/binary-arm64/Packages.gz
+ 7e4f74660fca6c8074b3782c4e49dbfc0c515dbdcc8392721b4a90293a7c3be1 3688 main/binary-arm64/Packages
+ 090fa20bc0c1aa7570686e78805b058b6b4f04c53ecb89bbab11c2c1fd0a5a12 1644 main/binary-arm64/Packages.gz
  7a8a4032106532f9f676500fdde6bff92c077a3c2a0356fbd9b4abf2a08e3a6c 114 main/binary-arm64/Release
