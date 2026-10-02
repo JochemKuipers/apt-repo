@@ -15,6 +15,10 @@ gh release download -R JochemKuipers/uniwill-laptop \
 	--pattern 'uniwill-*.deb' -D "${OUT}" --clobber
 gh release download -R JochemKuipers/DawnPro-GUI \
 	--pattern 'dawnpro-gui_*.deb' -D "${OUT}" --clobber
+gh release download -R JochemKuipers/peazip-apt \
+	--pattern 'peazip-qt6_*.deb' -D "${OUT}" --clobber
+gh release download -R JochemKuipers/peazip-apt \
+	--pattern 'peazip-gtk2_*.deb' -D "${OUT}" --clobber
 
 # Optional: upstream may not ship both arches on every release.
 gh release download -R xingkongliang/skills-manager \
