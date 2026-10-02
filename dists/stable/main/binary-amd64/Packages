@@ -72,6 +72,46 @@ Description: C++ facial-recognition authentication for Linux
  Howdy is weaker than a password. Never use it as the sole
  authentication method. This package does not enable PAM automatically.
 
+Package: peazip-gtk2
+Version: 11.3.0
+Architecture: amd64
+Maintainer: Giorgio Tani <giorgio.tani.software@gmail.com>
+Homepage: https://peazip.github.io
+Provides: peazip
+Conflicts: peazip, peazip-qt6
+Replaces: peazip
+Priority: optional
+Section: misc
+Filename: pool/main/p/peazip-gtk2/peazip-gtk2_11.3.0_amd64.deb
+Size: 14273326
+SHA256: af8fdd0bb5fe4b5bb24b96707b76b9bb245272884bda0bbcab47d41f2c603a8e
+SHA1: 774d1b986fff236ed81bc8a6d56342290a82f0d3
+MD5sum: 11daced725e91aa0d213d9f67123e649
+Description: PeaZip free file archiver utility, GTK2 build (GTK2)
+ PeaZip is an Open Source (LGPLv3) cross-platform archive manager utility, 
+ supporting over 200 archiving and compression formats as 7Z, BZip2, Brotli, 
+ GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
+
+Package: peazip-qt6
+Version: 11.3.0
+Architecture: amd64
+Maintainer: Giorgio Tani <giorgio.tani.software@gmail.com>
+Homepage: https://peazip.github.io
+Provides: peazip
+Conflicts: peazip, peazip-gtk2
+Replaces: peazip
+Priority: optional
+Section: misc
+Filename: pool/main/p/peazip-qt6/peazip-qt6_11.3.0_amd64.deb
+Size: 14783954
+SHA256: 52b0c176df6183b1ee7f9d291e95b836aa746b6d60ee2a2c4345dabf9fc9a387
+SHA1: ba0ed383f0dab5116c34488be2e2fd00dbb131b3
+MD5sum: 20b5652edce5f38f0ec74e91e483c6f0
+Description: PeaZip free file archiver utility, Qt6 build (Qt6)
+ PeaZip is an Open Source (LGPLv3) cross-platform archive manager utility, 
+ supporting over 200 archiving and compression formats as 7Z, BZip2, Brotli, 
+ GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
+
 Package: skills-manager
 Version: 1.40.3
 Architecture: amd64
