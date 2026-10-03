@@ -1,12 +1,12 @@
 # Personal APT repository
 
-Unofficial packages of howdy-next, adguard-tray, skills-manager, uniwill-laptop, dawnpro-gui, peazip-qt6, and peazip-gtk2.
+Unofficial packages of howdy-next, adguard-tray, skills-manager, uniwill-laptop, dawnpro-gui, peazip-qt6, peazip-gtk2, and ghidra.
 
 ```sh
 curl -fsSL https://jochemkuipers.github.io/apt-repo/jochem.sources \
   | sudo tee /etc/apt/sources.list.d/jochem.sources
 sudo apt update
-sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop dawnpro-gui peazip-qt6 peazip-gtk2
+sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop dawnpro-gui peazip-qt6 peazip-gtk2 ghidra
 ```
 
 Remove any old howdy-next or adguard-tray APT sources first.

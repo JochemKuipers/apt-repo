@@ -129,12 +129,12 @@ cat > "${PAGES}/index.html" <<EOF
 </head>
 <body>
   <h1>Jochem APT repository</h1>
-  <p>Unofficial personal packages of howdy-next, adguard-tray, skills-manager, uniwill-laptop, dawnpro-gui, peazip-qt6, and peazip-gtk2.</p>
+  <p>Unofficial personal packages of howdy-next, adguard-tray, skills-manager, uniwill-laptop, dawnpro-gui, peazip-qt6, peazip-gtk2, and ghidra.</p>
   <h2>Install</h2>
   <pre><code>curl -fsSL ${URI}/jochem.sources \\
   | sudo tee /etc/apt/sources.list.d/jochem.sources
 sudo apt update
-sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop dawnpro-gui peazip-qt6 peazip-gtk2</code></pre>
+sudo apt install howdy-next adguard-tray skills-manager uniwill-laptop dawnpro-gui peazip-qt6 peazip-gtk2 ghidra</code></pre>
 </body>
 </html>
 EOF
