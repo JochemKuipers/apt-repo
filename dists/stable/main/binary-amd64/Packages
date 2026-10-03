@@ -43,6 +43,200 @@ Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
  .
  Upstream project: https://github.com/shaypower/DawnPro-GUI
 
+Package: ghidra
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 8424
+Depends: openjdk-21-jdk | openjdk-21-jre, python3, bash, libgtk-3-0 | libgtk-3-0t64, ghidra-base (= 12.1.4-1), ghidra-functionid (= 12.1.4-1), ghidra-bsim (= 12.1.4-1), ghidra-features (= 12.1.4-1), ghidra-debug (= 12.1.4-1), ghidra-framework (= 12.1.4-1), ghidra-docs (= 12.1.4-1), ghidra-extensions (= 12.1.4-1), ghidra-jython (= 12.1.4-1)
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra/ghidra_12.1.4-1_amd64.deb
+Size: 3963052
+SHA256: a6b8f85c3ec40a4afcfda2d2050ba03efd7839652690cf1bc2a07724cb890556
+SHA1: c389010ca8922a812dcd5d50b7f0001b604dfb91
+MD5sum: b710eda092c7a8151ece8ad67cd6ce12
+Description: NSA Ghidra software reverse engineering framework (unofficial)
+ Unofficial Debian packaging of Ghidra, the software reverse engineering
+ (SRE) framework from the National Security Agency Research Directorate.
+ .
+ Split into several .deb parts so each stays under GitHub's 100 MiB
+ git limit for the apt-repo Pages pool. Install with: apt install ghidra
+ .
+ Upstream: https://github.com/NationalSecurityAgency/ghidra
+
+Package: ghidra-base
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 180624
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-base/ghidra-base_12.1.4-1_amd64.deb
+Size: 57708192
+SHA256: 233420a80960db53a878c76dcf73a695558b72329e78628cf0f4e091f598f997
+SHA1: bdbcb9a1da60355924344f17d92cdf2937541cf8
+MD5sum: dd8da435e0240cfcdd472b9a67347c06
+Description: Ghidra Base feature data (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-base).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
+Package: ghidra-bsim
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 36052
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-bsim/ghidra-bsim_12.1.4-1_amd64.deb
+Size: 35825264
+SHA256: 3a25beedc62ca12d5f7e729df74db36ec7114aa6e569d436bc98debb3dff7e9d
+SHA1: 52e3d1d07799721fd11ffbbad7f18e437701b59b
+MD5sum: 766119b1bc9bf8e3c64f42db2db78bc8
+Description: Ghidra BSim feature data (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-bsim).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
+Package: ghidra-debug
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 82040
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-debug/ghidra-debug_12.1.4-1_amd64.deb
+Size: 80348772
+SHA256: 9dcc81c64433840dbb1f6f9d715b8465f0b31580d8180080b25a27edf4afe475
+SHA1: 24caf52951090dc7b57b77e65ac277f24a565272
+MD5sum: 4aa03c51361f88ecd0008f30ab034aed
+Description: Ghidra Debug components (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-debug).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
+Package: ghidra-docs
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 110740
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-docs/ghidra-docs_12.1.4-1_amd64.deb
+Size: 61144688
+SHA256: 4017b4e780df7c160aae055ea80f51bf5ef54388c7834f1d6a61542bc34638d1
+SHA1: bc9f4587640ee4ff7589b99a77e8572d63d6b707
+MD5sum: dd1750cad9ddc00fb1424d2c6edbf7ec
+Description: Ghidra documentation (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-docs).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
+Package: ghidra-extensions
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 47028
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-extensions/ghidra-extensions_12.1.4-1_amd64.deb
+Size: 47327944
+SHA256: 229f26c4554eda030b122c1fe840bb51d4cf6ba3cb49ef7869356f22ad6c0fee
+SHA1: 0775ca803cb1e5d67d0a45b9200881d9851b84ea
+MD5sum: 28c4b926bea7c7b6011df83f1579e340
+Description: Ghidra bundled extensions (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-extensions).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
+Package: ghidra-features
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 94948
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-features/ghidra-features_12.1.4-1_amd64.deb
+Size: 63711048
+SHA256: 027daf50b9b282f394fbec6cbd48a645cff45e8c5f1cf60b85ab22ba1ff23fd3
+SHA1: 3b7fa76ac889647028c8f644e4a6208639b61360
+MD5sum: 555bea3dcc1f54a4ac37ada7519d4592
+Description: Ghidra remaining Features data (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-features).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
+Package: ghidra-framework
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 82256
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-framework/ghidra-framework_12.1.4-1_amd64.deb
+Size: 58853256
+SHA256: 4be4afda288cc2e7d3f49547aec4921179612df69c643cfd47186a6683894d7f
+SHA1: 8ae7ef6bdef017bdcb880d87fbede19d72ce8beb
+MD5sum: 67d805ee6bb0c4be0cc52a568b8b3d7e
+Description: Ghidra Framework and Processors (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-framework).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
+Package: ghidra-functionid
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 199944
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-functionid/ghidra-functionid_12.1.4-1_amd64.deb
+Size: 46516468
+SHA256: 860df0462181544f803eac1fda520679b67a830eaa2491e7f315d7b5d6fc45a5
+SHA1: a9400b47a7319ae880c72f179f4f0998a8b2f903
+MD5sum: 764f592a24e10b447ac47fa2536dff7b
+Description: Ghidra FunctionID data (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-functionid).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
+Package: ghidra-jython
+Version: 12.1.4-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 55012
+Homepage: https://github.com/NationalSecurityAgency/ghidra
+Priority: optional
+Section: misc
+Filename: pool/main/g/ghidra-jython/ghidra-jython_12.1.4-1_amd64.deb
+Size: 55850252
+SHA256: eb495e9921896f6b1f2a5ef24c3635d3289dfaa3cd7c4953bb431b52d716ec2b
+SHA1: 68dc92b3c5831a2af7888e18a1edc49b91a45486
+MD5sum: 33c4671767d67f4d7f2d165604e7520f
+Description: Ghidra Jython extension (unofficial)
+ Data package for unofficial Ghidra 12.1.4 (ghidra-jython).
+ .
+ Pulled in automatically by the ghidra metapackage; not meant to be
+ installed alone.
+
 Package: howdy-next
 Version: 3.4.2-2
 Architecture: amd64
