@@ -23,6 +23,10 @@ gh release download -R JochemKuipers/ghidra-apt \
 	--pattern 'ghidra*.deb' -D "${OUT}" --clobber
 gh release download -R JochemKuipers/bluemail-apt \
 	--pattern 'bluemail*.deb' -D "${OUT}" --clobber
+gh release download -R JochemKuipers/lsfg-vk-apt \
+	--pattern 'lsfg-vk_*.deb' -D "${OUT}" --clobber
+gh release download -R JochemKuipers/lsfg-vk-apt \
+	--pattern 'lsfg-vk-git_*.deb' -D "${OUT}" --clobber
 gh release download -R rafatosta/zapzap \
 	--pattern 'zapzap-*.deb' -D "${OUT}" --clobber
 
