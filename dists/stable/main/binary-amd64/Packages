@@ -498,17 +498,17 @@ Description: DKMS driver for Uniwill / Medion ERAZER laptops
  and overrides the in-tree module when present.
 
 Package: zapzap
-Version: 7.5
+Version: 7.5.1
 Architecture: amd64
 Depends: python3, python3-pyqt6, python3-pyqt6.qtwebengine, python3-pyqt6.qtsvg, qt6-wayland, qt6-qpa-plugins
 Maintainer: Rafael Tosta <rafa.ecomp@gmail.com>
 Priority: optional
 Section: misc
-Filename: pool/main/z/zapzap/zapzap_7.5_amd64.deb
-Size: 463592
-SHA256: 3f57d57ef1a89921e79c2d3b5e864700e697c875d3da9fbd89e08be0968efc3c
-SHA1: a245339ccfc731f106f180f7001472d3246094bf
-MD5sum: 50b0af72a76dda75f1d69d0fd866fe43
+Filename: pool/main/z/zapzap/zapzap_7.5.1_amd64.deb
+Size: 474740
+SHA256: 03986a9aad976bb7034d8ff83c774ca033168e54c8c954be8c94c682a770093d
+SHA1: 218d78174a50bedf00e236b78f7e58af70c637ad
+MD5sum: 31613bc6fb718975741c57cd5d3e18ea
 Description: ZapZap - WhatsApp Messenger for Linux.
  An unofficial WhatsApp desktop application written in Python and PyQt6.
 
