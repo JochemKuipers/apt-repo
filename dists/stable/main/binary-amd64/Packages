@@ -384,6 +384,57 @@ Description: C++ facial-recognition authentication for Linux
  Howdy is weaker than a password. Never use it as the sole
  authentication method. This package does not enable PAM automatically.
 
+Package: lsfg-vk
+Version: 2.0.0-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 3304
+Depends: libc6, libstdc++6, libvulkan1, hicolor-icon-theme, libqt6core6t64 | libqt6core6, libqt6gui6t64 | libqt6gui6, libqt6network6t64 | libqt6network6, libqt6qml6, libqt6quick6, qt6-qpa-plugins, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-dialogs, qml6-module-qtqml-workerscript, qml6-module-qtquick-templates, qml6-module-qt-labs-folderlistmodel
+Conflicts: lsfg-vk-git
+Replaces: lsfg-vk-git
+Homepage: https://lsfg-vk.dev
+Priority: optional
+Section: misc
+Filename: pool/main/l/lsfg-vk/lsfg-vk_2.0.0-1_amd64.deb
+Size: 562124
+SHA256: 401e19c2813bf2736ae450b36d723fe2e1994742c3f2ca5fbdd9a05bc6084fc3
+SHA1: 0f3d0ec059fc010c5e799596ffb29b27abdd25f4
+MD5sum: 595857124978b461750a7fc235c4cf89
+Description: Lossless Scaling frame generation for Vulkan (unofficial)
+ Unofficial Debian packaging of lsfg-vk, a Vulkan layer that ports
+ Lossless Scaling frame generation to Linux.
+ .
+ Built from 2.0.0 at https://builds.lsfg-vk.dev.
+ Conflicts with the lsfg-vk-git package.
+ .
+ Upstream: https://lsfg-vk.dev/
+
+Package: lsfg-vk-git
+Version: 2.0.0.r15.geb080c9-1
+Architecture: amd64
+Maintainer: Jochem Kuipers <jochem@kuipers.cc>
+Installed-Size: 3464
+Depends: libc6, libstdc++6, libvulkan1, hicolor-icon-theme, libqt6core6t64 | libqt6core6, libqt6gui6t64 | libqt6gui6, libqt6network6t64 | libqt6network6, libqt6qml6, libqt6quick6, qt6-qpa-plugins, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-dialogs, qml6-module-qtqml-workerscript, qml6-module-qtquick-templates, qml6-module-qt-labs-folderlistmodel
+Conflicts: lsfg-vk
+Replaces: lsfg-vk
+Provides: lsfg-vk
+Homepage: https://lsfg-vk.dev
+Priority: optional
+Section: misc
+Filename: pool/main/l/lsfg-vk-git/lsfg-vk-git_2.0.0.r15.geb080c9-1_amd64.deb
+Size: 585112
+SHA256: 5bf0dce04c2be223cd938d6365d70b8794a9629e4a47926eb15cdca454358d5a
+SHA1: a0c01e8beb91206f333c7c28d9ec42c9f2d40ae6
+MD5sum: 4f1c5e3c68688a9fec0384e926d0ffaf
+Description: Lossless Scaling frame generation for Vulkan (unofficial)
+ Unofficial Debian packaging of the latest git build of lsfg-vk,
+ a Vulkan layer that ports Lossless Scaling frame generation to Linux.
+ .
+ Built from 2.0.0.r15.geb080c9 at https://builds.lsfg-vk.dev.
+ Conflicts with the stable lsfg-vk package.
+ .
+ Upstream: https://lsfg-vk.dev/
+
 Package: peazip-gtk2
 Version: 11.3.0
 Architecture: amd64
