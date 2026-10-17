@@ -24,19 +24,19 @@ Description: system tray monitor and controller for adguard-cli
  upstream script.
 
 Package: bluemail
-Version: 1.143.60-1
+Version: 1.143.61-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 236
-Depends: libnotify4, libayatana-appindicator3-1 | libappindicator3-1, libxtst6, libnss3, libxss1, libgtk-3-0 | libgtk-3-0t64, libgbm1, libasound2t64 | libasound2, libdrm2, libxcomposite1, libxdamage1, libxrandr2, libxfixes3, libxcb1, libx11-6, libxext6, libxkbcommon0, libpango-1.0-0, libcairo2, libdbus-1-3, libcups2 | libcups2t64, bluemail-data (= 1.143.60-1), bluemail-data2 (= 1.143.60-1), bluemail-data3 (= 1.143.60-1), bluemail-data4 (= 1.143.60-1), bluemail-data5 (= 1.143.60-1)
+Depends: libnotify4, libayatana-appindicator3-1 | libappindicator3-1, libxtst6, libnss3, libxss1, libgtk-3-0 | libgtk-3-0t64, libgbm1, libasound2t64 | libasound2, libdrm2, libxcomposite1, libxdamage1, libxrandr2, libxfixes3, libxcb1, libx11-6, libxext6, libxkbcommon0, libpango-1.0-0, libcairo2, libdbus-1-3, libcups2 | libcups2t64, bluemail-data (= 1.143.61-1), bluemail-data2 (= 1.143.61-1), bluemail-data3 (= 1.143.61-1), bluemail-data4 (= 1.143.61-1), bluemail-data5 (= 1.143.61-1)
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail/bluemail_1.143.60-1_amd64.deb
-Size: 80924
-SHA256: f6d2f5b5f566edc8a526085db158957f9613385eea1d62e8d0cd6b7ec2e532a5
-SHA1: 20a1f969ff5c052057b7390ecdd384aa3792b51b
-MD5sum: 06e5985a2e5252f48eff7ec36f5ad920
+Filename: pool/main/b/bluemail/bluemail_1.143.61-1_amd64.deb
+Size: 80908
+SHA256: 2227e3f206196838a5e27ba139c4f01d8270e76948a39cb7826f5c0545cbe3bc
+SHA1: f6515855a2150268f53187980cd04e5485e8b630
+MD5sum: c3791de67d95d5fba33b40636bacda33
 Description: BlueMail email and calendar client (unofficial)
  Unofficial Debian packaging of BlueMail, repacked from the official
  Snap into /opt/bluemail (same approach as the Arch AUR package).
@@ -47,18 +47,18 @@ Description: BlueMail email and calendar client (unofficial)
  Upstream: https://snapcraft.io/bluemail
 
 Package: bluemail-data
-Version: 1.143.60-1
+Version: 1.143.61-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 215820
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data/bluemail-data_1.143.60-1_amd64.deb
-Size: 66338648
-SHA256: b8d95fc8938cc09172292a4bdc151e53d873d461ed8b6b93742c0d5d7db4ec52
-SHA1: cf9bf3f218caf786848f67a8b5e89278308e6820
-MD5sum: bf90f2459e2dd030cff7a71a00ca6774
+Filename: pool/main/b/bluemail-data/bluemail-data_1.143.61-1_amd64.deb
+Size: 66325992
+SHA256: 8144b45dbf2bc866618bd0d601f2d0b8ffa1d383d13c0452b39613f9946eac4a
+SHA1: 63033f334f848ba7d4c5667013b47ac7349529c3
+MD5sum: a382cfcfa324e2d1993a8e0f0bea418e
 Description: BlueMail data (bluemail-data, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -66,18 +66,18 @@ Description: BlueMail data (bluemail-data, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data2
-Version: 1.143.60-1
+Version: 1.143.61-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 117928
+Installed-Size: 118348
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data2/bluemail-data2_1.143.60-1_amd64.deb
-Size: 55634608
-SHA256: 0682065d8e8f2aa0f5f65491647d2652a50cc17af24922ddb6ab780fa4562e7a
-SHA1: 051212068a9861d76e89d1f2f4cfb6d6b1fea478
-MD5sum: 48a9ec04a4e4093cd35302bcbd96e0ea
+Filename: pool/main/b/bluemail-data2/bluemail-data2_1.143.61-1_amd64.deb
+Size: 55714820
+SHA256: 56adf85a5fddc62dbf959f007d97425b482040ffb6c9142a45bf0df20f0098ad
+SHA1: 99e742cc3f7917a8ccf1e1e206a7c8cde41cd27c
+MD5sum: b72fb04e1de2a10dd51a31785d2cacd7
 Description: BlueMail data (bluemail-data2, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -85,18 +85,18 @@ Description: BlueMail data (bluemail-data2, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data3
-Version: 1.143.60-1
+Version: 1.143.61-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 77584
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data3/bluemail-data3_1.143.60-1_amd64.deb
-Size: 10655440
-SHA256: 281b510fac1f9966f53dfa48541e4a8d0470e37c1b2bf787f268e9a05f377a85
-SHA1: 34f8fcd3ad63d2ecef64a4cf7d405ac9c79d23a6
-MD5sum: 7043fd4effbdc761989ca9594f8b501d
+Filename: pool/main/b/bluemail-data3/bluemail-data3_1.143.61-1_amd64.deb
+Size: 10650424
+SHA256: 6a88e7702b87c4db6caa23d116e081437b7153829c73b61d9dbcc849ef608970
+SHA1: 969d08982033d597b53a02fc5e61d50847417229
+MD5sum: 13c3a6e028e9caec75e6f17a32353972
 Description: BlueMail data (bluemail-data3, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -104,18 +104,18 @@ Description: BlueMail data (bluemail-data3, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data4
-Version: 1.143.60-1
+Version: 1.143.61-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 98248
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data4/bluemail-data4_1.143.60-1_amd64.deb
-Size: 32905644
-SHA256: 1d6b01bb932689869ab30daec3910c2e0a111f1594cc18d4110be0c71e69efd7
-SHA1: 1e59591f280cd96cc0947381584ff1112513c3b5
-MD5sum: c9e809a7c97b4b3c7dd70445bcfca937
+Filename: pool/main/b/bluemail-data4/bluemail-data4_1.143.61-1_amd64.deb
+Size: 32951272
+SHA256: 180e997ad2a581051d4d3cd58a52ea4957b998a092b16e15b265d4744e11bf04
+SHA1: 3dd09125d87405e6802380dd72c1dce2a9335c2e
+MD5sum: b5c0365684d9fedbeeb40d9e1967e062
 Description: BlueMail data (bluemail-data4, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -123,18 +123,18 @@ Description: BlueMail data (bluemail-data4, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data5
-Version: 1.143.60-1
+Version: 1.143.61-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 35256
+Installed-Size: 35812
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data5/bluemail-data5_1.143.60-1_amd64.deb
-Size: 24787892
-SHA256: 3782c18a8ff4940c2eeaee4084ba00c68d75cd4f471eb45d78027487d7b19992
-SHA1: 103648bc940a9a0c20ab419662f62cea14bef32a
-MD5sum: 59efbfb9475988d53d2297b4976f3b3a
+Filename: pool/main/b/bluemail-data5/bluemail-data5_1.143.61-1_amd64.deb
+Size: 25066460
+SHA256: d175a5c51ac440de4ab1e2971167b4b01fdc599fcdcd180aba47c1b0414caa2b
+SHA1: 3ee4e2ca6dba174a208db48d5756c47b48d1072c
+MD5sum: 8ddc2112d2e3eac1388d0d6de60247cd
 Description: BlueMail data (bluemail-data5, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -436,7 +436,7 @@ Description: Lossless Scaling frame generation for Vulkan (unofficial)
  Upstream: https://lsfg-vk.dev/
 
 Package: peazip-gtk2
-Version: 11.3.0
+Version: 11.4.0
 Architecture: amd64
 Maintainer: Giorgio Tani <giorgio.tani.software@gmail.com>
 Homepage: https://peazip.github.io
@@ -445,18 +445,18 @@ Conflicts: peazip, peazip-qt6
 Replaces: peazip
 Priority: optional
 Section: misc
-Filename: pool/main/p/peazip-gtk2/peazip-gtk2_11.3.0_amd64.deb
-Size: 14273326
-SHA256: af8fdd0bb5fe4b5bb24b96707b76b9bb245272884bda0bbcab47d41f2c603a8e
-SHA1: 774d1b986fff236ed81bc8a6d56342290a82f0d3
-MD5sum: 11daced725e91aa0d213d9f67123e649
+Filename: pool/main/p/peazip-gtk2/peazip-gtk2_11.4.0_amd64.deb
+Size: 14371478
+SHA256: 7e624877c81b19dc88a71eabdcf29a1da0f20907fe3f8edf5b17a644a4f4478b
+SHA1: f977ae5b7d9ccea3b1e1070e0147a20cc688d9fc
+MD5sum: c1627e3561c2b9cb5548408f87a8c001
 Description: PeaZip free file archiver utility, GTK2 build (GTK2)
  PeaZip is an Open Source (LGPLv3) cross-platform archive manager utility, 
  supporting over 200 archiving and compression formats as 7Z, BZip2, Brotli, 
  GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
 
 Package: peazip-qt6
-Version: 11.3.0
+Version: 11.4.0
 Architecture: amd64
 Maintainer: Giorgio Tani <giorgio.tani.software@gmail.com>
 Homepage: https://peazip.github.io
@@ -465,29 +465,29 @@ Conflicts: peazip, peazip-gtk2
 Replaces: peazip
 Priority: optional
 Section: misc
-Filename: pool/main/p/peazip-qt6/peazip-qt6_11.3.0_amd64.deb
-Size: 14783954
-SHA256: 52b0c176df6183b1ee7f9d291e95b836aa746b6d60ee2a2c4345dabf9fc9a387
-SHA1: ba0ed383f0dab5116c34488be2e2fd00dbb131b3
-MD5sum: 20b5652edce5f38f0ec74e91e483c6f0
+Filename: pool/main/p/peazip-qt6/peazip-qt6_11.4.0_amd64.deb
+Size: 14859522
+SHA256: d7c235a8f6997b0cef947b9db5674e4a1c85a68547be95aca445ef05137e5ae3
+SHA1: 2f8b93e3546cff5f4242eb1191f4f6249b7e3be6
+MD5sum: 0ff381efe15c611824a5ca1158851c6e
 Description: PeaZip free file archiver utility, Qt6 build (Qt6)
  PeaZip is an Open Source (LGPLv3) cross-platform archive manager utility, 
  supporting over 200 archiving and compression formats as 7Z, BZip2, Brotli, 
  GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
 
 Package: skills-manager
-Version: 1.42.0
+Version: 1.42.1
 Architecture: amd64
-Installed-Size: 75125
+Installed-Size: 75268
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.42.0_amd64.deb
-Size: 25222244
-SHA256: 8823972d4aa02ca4e2c77d1f4c9ec1f74cd30a3e0ccdd49e2d0b07f6193029da
-SHA1: c7a9327bf5b2c8be50ab3605be7b8447dca22037
-MD5sum: 2b62f8c954791a4f1ffbadd72e46f6c7
+Filename: pool/main/s/skills-manager/skills-manager_1.42.1_amd64.deb
+Size: 25274946
+SHA256: 40b5bbf8ff15dc269a9fd64bca970e04ae55a842e28ff4bcedf7f7656e3bf674
+SHA1: 7d4ef6a92e1013fed62c0bd54ea66b7cbe4dc234
+MD5sum: f78dc60ce933033bd6f6daf51c966aec
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
