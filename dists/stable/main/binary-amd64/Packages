@@ -396,10 +396,10 @@ Homepage: https://lsfg-vk.dev
 Priority: optional
 Section: misc
 Filename: pool/main/l/lsfg-vk/lsfg-vk_2.0.0-1_amd64.deb
-Size: 562124
-SHA256: 401e19c2813bf2736ae450b36d723fe2e1994742c3f2ca5fbdd9a05bc6084fc3
-SHA1: 0f3d0ec059fc010c5e799596ffb29b27abdd25f4
-MD5sum: 595857124978b461750a7fc235c4cf89
+Size: 561464
+SHA256: 2bbaf25b7b3158b37370ef706d6aae25a383b8bcd169dc935d2b595e93009f99
+SHA1: e27f6349bcf101b9b049c5ddc9ea62180772e9e7
+MD5sum: 70eb0ab609342656a7587f288e12027e
 Description: Lossless Scaling frame generation for Vulkan (unofficial)
  Unofficial Debian packaging of lsfg-vk, a Vulkan layer that ports
  Lossless Scaling frame generation to Linux.
@@ -410,10 +410,10 @@ Description: Lossless Scaling frame generation for Vulkan (unofficial)
  Upstream: https://lsfg-vk.dev/
 
 Package: lsfg-vk-git
-Version: 2.0.0.r15.geb080c9-1
+Version: 2.0.0.r16.g21fbd1b-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 3464
+Installed-Size: 3484
 Depends: libc6, libstdc++6, libvulkan1, hicolor-icon-theme, libqt6core6t64 | libqt6core6, libqt6gui6t64 | libqt6gui6, libqt6network6t64 | libqt6network6, libqt6qml6, libqt6quick6, qt6-qpa-plugins, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-dialogs, qml6-module-qtqml-workerscript, qml6-module-qtquick-templates, qml6-module-qt-labs-folderlistmodel
 Conflicts: lsfg-vk
 Replaces: lsfg-vk
@@ -421,16 +421,16 @@ Provides: lsfg-vk
 Homepage: https://lsfg-vk.dev
 Priority: optional
 Section: misc
-Filename: pool/main/l/lsfg-vk-git/lsfg-vk-git_2.0.0.r15.geb080c9-1_amd64.deb
-Size: 585112
-SHA256: 5bf0dce04c2be223cd938d6365d70b8794a9629e4a47926eb15cdca454358d5a
-SHA1: a0c01e8beb91206f333c7c28d9ec42c9f2d40ae6
-MD5sum: 4f1c5e3c68688a9fec0384e926d0ffaf
+Filename: pool/main/l/lsfg-vk-git/lsfg-vk-git_2.0.0.r16.g21fbd1b-1_amd64.deb
+Size: 588516
+SHA256: 6b13b90a3d2bbb65c062b73e028f00c0c6490d00939b14071be871af44cf8fa1
+SHA1: 8d37a6d82a1ee9b5b83be50be0af783992611121
+MD5sum: 0cda61160c54f97ca330d7b10e3dc2b7
 Description: Lossless Scaling frame generation for Vulkan (unofficial)
  Unofficial Debian packaging of the latest git build of lsfg-vk,
  a Vulkan layer that ports Lossless Scaling frame generation to Linux.
  .
- Built from 2.0.0.r15.geb080c9 at https://builds.lsfg-vk.dev.
+ Built from 2.0.0.r16.g21fbd1b at https://builds.lsfg-vk.dev.
  Conflicts with the stable lsfg-vk package.
  .
  Upstream: https://lsfg-vk.dev/
@@ -476,18 +476,18 @@ Description: PeaZip free file archiver utility, Qt6 build (Qt6)
  GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
 
 Package: skills-manager
-Version: 1.42.1
+Version: 1.42.2
 Architecture: amd64
-Installed-Size: 75268
+Installed-Size: 75242
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.42.1_amd64.deb
-Size: 25274946
-SHA256: 40b5bbf8ff15dc269a9fd64bca970e04ae55a842e28ff4bcedf7f7656e3bf674
-SHA1: 7d4ef6a92e1013fed62c0bd54ea66b7cbe4dc234
-MD5sum: f78dc60ce933033bd6f6daf51c966aec
+Filename: pool/main/s/skills-manager/skills-manager_1.42.2_amd64.deb
+Size: 25273700
+SHA256: a74177c31ac85638f7ca797c88e012d745c8aadc2d6b28b6960c3771387e881b
+SHA1: e077a81e20f4d85c6024656d908ee521a00c42e9
+MD5sum: 4664a74d0af1275f887d3462124df1ee
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
