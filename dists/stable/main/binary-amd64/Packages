@@ -24,19 +24,19 @@ Description: system tray monitor and controller for adguard-cli
  upstream script.
 
 Package: bluemail
-Version: 1.143.61-1
+Version: 1.143.62-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 236
-Depends: libnotify4, libayatana-appindicator3-1 | libappindicator3-1, libxtst6, libnss3, libxss1, libgtk-3-0 | libgtk-3-0t64, libgbm1, libasound2t64 | libasound2, libdrm2, libxcomposite1, libxdamage1, libxrandr2, libxfixes3, libxcb1, libx11-6, libxext6, libxkbcommon0, libpango-1.0-0, libcairo2, libdbus-1-3, libcups2 | libcups2t64, bluemail-data (= 1.143.61-1), bluemail-data2 (= 1.143.61-1), bluemail-data3 (= 1.143.61-1), bluemail-data4 (= 1.143.61-1), bluemail-data5 (= 1.143.61-1)
+Depends: libnotify4, libayatana-appindicator3-1 | libappindicator3-1, libxtst6, libnss3, libxss1, libgtk-3-0 | libgtk-3-0t64, libgbm1, libasound2t64 | libasound2, libdrm2, libxcomposite1, libxdamage1, libxrandr2, libxfixes3, libxcb1, libx11-6, libxext6, libxkbcommon0, libpango-1.0-0, libcairo2, libdbus-1-3, libcups2 | libcups2t64, bluemail-data (= 1.143.62-1), bluemail-data2 (= 1.143.62-1), bluemail-data3 (= 1.143.62-1), bluemail-data4 (= 1.143.62-1), bluemail-data5 (= 1.143.62-1)
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail/bluemail_1.143.61-1_amd64.deb
-Size: 80908
-SHA256: 2227e3f206196838a5e27ba139c4f01d8270e76948a39cb7826f5c0545cbe3bc
-SHA1: f6515855a2150268f53187980cd04e5485e8b630
-MD5sum: c3791de67d95d5fba33b40636bacda33
+Filename: pool/main/b/bluemail/bluemail_1.143.62-1_amd64.deb
+Size: 80920
+SHA256: 56537baaa7e621e2328d67910fa0c23741f07d2521b6ff555a8a9866949a8fe2
+SHA1: 460c558be9a60c3949661459b11f5bf62b28b011
+MD5sum: a91fd5565aadc994f4ddeea6f6b4295d
 Description: BlueMail email and calendar client (unofficial)
  Unofficial Debian packaging of BlueMail, repacked from the official
  Snap into /opt/bluemail (same approach as the Arch AUR package).
@@ -47,18 +47,18 @@ Description: BlueMail email and calendar client (unofficial)
  Upstream: https://snapcraft.io/bluemail
 
 Package: bluemail-data
-Version: 1.143.61-1
+Version: 1.143.62-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 215820
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data/bluemail-data_1.143.61-1_amd64.deb
-Size: 66325992
-SHA256: 8144b45dbf2bc866618bd0d601f2d0b8ffa1d383d13c0452b39613f9946eac4a
-SHA1: 63033f334f848ba7d4c5667013b47ac7349529c3
-MD5sum: a382cfcfa324e2d1993a8e0f0bea418e
+Filename: pool/main/b/bluemail-data/bluemail-data_1.143.62-1_amd64.deb
+Size: 66331716
+SHA256: 7abc952b485847c408e92d7992766a1de1f6e42468c269e5a46dcf563fc766c4
+SHA1: 8ad09729861a698b897d3d7c8e37dc79d1df46eb
+MD5sum: 5524b5829fe9046c080313f500ee4de0
 Description: BlueMail data (bluemail-data, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -66,18 +66,18 @@ Description: BlueMail data (bluemail-data, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data2
-Version: 1.143.61-1
+Version: 1.143.62-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 118348
+Installed-Size: 118564
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data2/bluemail-data2_1.143.61-1_amd64.deb
-Size: 55714820
-SHA256: 56adf85a5fddc62dbf959f007d97425b482040ffb6c9142a45bf0df20f0098ad
-SHA1: 99e742cc3f7917a8ccf1e1e206a7c8cde41cd27c
-MD5sum: b72fb04e1de2a10dd51a31785d2cacd7
+Filename: pool/main/b/bluemail-data2/bluemail-data2_1.143.62-1_amd64.deb
+Size: 55750864
+SHA256: c5614a6c02f1b614e9185aded3701b5d5c7d483072545d64b90ffd5a94d8d787
+SHA1: ea6e2c9b8b678c3197752c562061be7fc0dad2bf
+MD5sum: 79b35cfad0ff136efdcd7ed18e1eb7b8
 Description: BlueMail data (bluemail-data2, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -85,18 +85,18 @@ Description: BlueMail data (bluemail-data2, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data3
-Version: 1.143.61-1
+Version: 1.143.62-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 77584
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data3/bluemail-data3_1.143.61-1_amd64.deb
-Size: 10650424
-SHA256: 6a88e7702b87c4db6caa23d116e081437b7153829c73b61d9dbcc849ef608970
-SHA1: 969d08982033d597b53a02fc5e61d50847417229
-MD5sum: 13c3a6e028e9caec75e6f17a32353972
+Filename: pool/main/b/bluemail-data3/bluemail-data3_1.143.62-1_amd64.deb
+Size: 10650888
+SHA256: a0f9d056cd24f9aea4b3a1d965852fa2e4475b9eedd571831c8bbdd312313f64
+SHA1: 6916ec69da93caad293bf36c254c6f2705e9b0f3
+MD5sum: 389ece00e3b1efa02a17b95315e5695f
 Description: BlueMail data (bluemail-data3, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -104,18 +104,18 @@ Description: BlueMail data (bluemail-data3, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data4
-Version: 1.143.61-1
+Version: 1.143.62-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 98248
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data4/bluemail-data4_1.143.61-1_amd64.deb
-Size: 32951272
-SHA256: 180e997ad2a581051d4d3cd58a52ea4957b998a092b16e15b265d4744e11bf04
-SHA1: 3dd09125d87405e6802380dd72c1dce2a9335c2e
-MD5sum: b5c0365684d9fedbeeb40d9e1967e062
+Filename: pool/main/b/bluemail-data4/bluemail-data4_1.143.62-1_amd64.deb
+Size: 32909864
+SHA256: 470a99bc710f2304ba0823ec4e11dbe465fd6d110ea5421e28f01c5e92e4eb9b
+SHA1: a70324b7849dde0cda39c0f486725ce33909304e
+MD5sum: 437d2ba0ed0ccb4a4d5753bb781e133e
 Description: BlueMail data (bluemail-data4, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -123,18 +123,18 @@ Description: BlueMail data (bluemail-data4, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data5
-Version: 1.143.61-1
+Version: 1.143.62-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 35812
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data5/bluemail-data5_1.143.61-1_amd64.deb
-Size: 25066460
-SHA256: d175a5c51ac440de4ab1e2971167b4b01fdc599fcdcd180aba47c1b0414caa2b
-SHA1: 3ee4e2ca6dba174a208db48d5756c47b48d1072c
-MD5sum: 8ddc2112d2e3eac1388d0d6de60247cd
+Filename: pool/main/b/bluemail-data5/bluemail-data5_1.143.62-1_amd64.deb
+Size: 25067468
+SHA256: b7070be9980307dabc1b751f296aa5de879ec95edb6071455fee97aa4ddd8af9
+SHA1: df865d83e26cb6b2624a637f3a983762d00b865e
+MD5sum: 50b22f17131c1e057fdbdf770e43c471
 Description: BlueMail data (bluemail-data5, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -162,19 +162,19 @@ Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
  Upstream project: https://github.com/shaypower/DawnPro-GUI
 
 Package: ghidra
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 8424
-Depends: openjdk-21-jdk | openjdk-21-jre, python3, bash, libgtk-3-0 | libgtk-3-0t64, ghidra-base (= 12.1.4-1), ghidra-functionid (= 12.1.4-1), ghidra-bsim (= 12.1.4-1), ghidra-features (= 12.1.4-1), ghidra-debug (= 12.1.4-1), ghidra-framework (= 12.1.4-1), ghidra-docs (= 12.1.4-1), ghidra-extensions (= 12.1.4-1), ghidra-jython (= 12.1.4-1)
+Installed-Size: 8648
+Depends: openjdk-21-jdk | openjdk-21-jre, python3, bash, libgtk-3-0 | libgtk-3-0t64, ghidra-base (= 12.2-1), ghidra-functionid (= 12.2-1), ghidra-bsim (= 12.2-1), ghidra-features (= 12.2-1), ghidra-debug (= 12.2-1), ghidra-framework (= 12.2-1), ghidra-docs (= 12.2-1), ghidra-extensions (= 12.2-1), ghidra-jython (= 12.2-1)
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra/ghidra_12.1.4-1_amd64.deb
-Size: 3963052
-SHA256: a6b8f85c3ec40a4afcfda2d2050ba03efd7839652690cf1bc2a07724cb890556
-SHA1: c389010ca8922a812dcd5d50b7f0001b604dfb91
-MD5sum: b710eda092c7a8151ece8ad67cd6ce12
+Filename: pool/main/g/ghidra/ghidra_12.2-1_amd64.deb
+Size: 3974548
+SHA256: 60eb5eea2e05ed1a502c78d7af130b51002a8ebffaa4eeebec141a547a3bd7bc
+SHA1: 8f5f34a5428138a003418a592312875092ef8a9f
+MD5sum: dbf5531b6bdac2eb01607cbf14dfbc8b
 Description: NSA Ghidra software reverse engineering framework (unofficial)
  Unofficial Debian packaging of Ghidra, the software reverse engineering
  (SRE) framework from the National Security Agency Research Directorate.
@@ -185,172 +185,172 @@ Description: NSA Ghidra software reverse engineering framework (unofficial)
  Upstream: https://github.com/NationalSecurityAgency/ghidra
 
 Package: ghidra-base
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 180624
+Installed-Size: 191108
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-base/ghidra-base_12.1.4-1_amd64.deb
-Size: 57708192
-SHA256: 233420a80960db53a878c76dcf73a695558b72329e78628cf0f4e091f598f997
-SHA1: bdbcb9a1da60355924344f17d92cdf2937541cf8
-MD5sum: dd8da435e0240cfcdd472b9a67347c06
+Filename: pool/main/g/ghidra-base/ghidra-base_12.2-1_amd64.deb
+Size: 58262896
+SHA256: 5467c96e54fa8dabf0a6b2f605b88d6d5f87a536ac546a2557c5d30deb6d57aa
+SHA1: 58751ea4cc48c416c1f9e127410ee7225c5e6b38
+MD5sum: 1a18c2a7d88e0ea35ea565e68b731c58
 Description: Ghidra Base feature data (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-base).
+ Data package for unofficial Ghidra 12.2 (ghidra-base).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
 
 Package: ghidra-bsim
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 36052
+Installed-Size: 36224
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-bsim/ghidra-bsim_12.1.4-1_amd64.deb
-Size: 35825264
-SHA256: 3a25beedc62ca12d5f7e729df74db36ec7114aa6e569d436bc98debb3dff7e9d
-SHA1: 52e3d1d07799721fd11ffbbad7f18e437701b59b
-MD5sum: 766119b1bc9bf8e3c64f42db2db78bc8
+Filename: pool/main/g/ghidra-bsim/ghidra-bsim_12.2-1_amd64.deb
+Size: 35953072
+SHA256: f63e3f92657a17cb3783df751f136da711475ab8aee484aebe9b78d6359c0984
+SHA1: 34b0d686e7a0d7fd8040ebe40ec1d742afe1a781
+MD5sum: 716906177e537de505c1b6ee0feffcc3
 Description: Ghidra BSim feature data (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-bsim).
+ Data package for unofficial Ghidra 12.2 (ghidra-bsim).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
 
 Package: ghidra-debug
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 82040
+Installed-Size: 84520
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-debug/ghidra-debug_12.1.4-1_amd64.deb
-Size: 80348772
-SHA256: 9dcc81c64433840dbb1f6f9d715b8465f0b31580d8180080b25a27edf4afe475
-SHA1: 24caf52951090dc7b57b77e65ac277f24a565272
-MD5sum: 4aa03c51361f88ecd0008f30ab034aed
+Filename: pool/main/g/ghidra-debug/ghidra-debug_12.2-1_amd64.deb
+Size: 82105052
+SHA256: f31bb052cefb9a086c23f9a201a1db8f70d455b65bc4f73cd8bc60b81952949d
+SHA1: a6e0d9097447031078f2861430042d103363bf99
+MD5sum: ff0183525a408ad9c1209559e2066bba
 Description: Ghidra Debug components (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-debug).
+ Data package for unofficial Ghidra 12.2 (ghidra-debug).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
 
 Package: ghidra-docs
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 110740
+Installed-Size: 122748
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-docs/ghidra-docs_12.1.4-1_amd64.deb
-Size: 61144688
-SHA256: 4017b4e780df7c160aae055ea80f51bf5ef54388c7834f1d6a61542bc34638d1
-SHA1: bc9f4587640ee4ff7589b99a77e8572d63d6b707
-MD5sum: dd1750cad9ddc00fb1424d2c6edbf7ec
+Filename: pool/main/g/ghidra-docs/ghidra-docs_12.2-1_amd64.deb
+Size: 69159660
+SHA256: f5e91d7380aacbc6f28d9b667608264b1bcf23b034d56e4da5e034a40c8af252
+SHA1: 0e8a1feee444976c95d20420dc9f952894f3ff87
+MD5sum: c6090d380b267f14b94ef43716bd4a7b
 Description: Ghidra documentation (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-docs).
+ Data package for unofficial Ghidra 12.2 (ghidra-docs).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
 
 Package: ghidra-extensions
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 47028
+Installed-Size: 47216
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-extensions/ghidra-extensions_12.1.4-1_amd64.deb
-Size: 47327944
-SHA256: 229f26c4554eda030b122c1fe840bb51d4cf6ba3cb49ef7869356f22ad6c0fee
-SHA1: 0775ca803cb1e5d67d0a45b9200881d9851b84ea
-MD5sum: 28c4b926bea7c7b6011df83f1579e340
+Filename: pool/main/g/ghidra-extensions/ghidra-extensions_12.2-1_amd64.deb
+Size: 47350732
+SHA256: ba57ebecfae2263c4dfc3b9c16a63428a457ec0cb4c9a92a003780a96102b16e
+SHA1: 6c56e304023898cea997f3d8c42de6a29ae7904e
+MD5sum: c61e91d72de17746de88ca5d221d2986
 Description: Ghidra bundled extensions (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-extensions).
+ Data package for unofficial Ghidra 12.2 (ghidra-extensions).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
 
 Package: ghidra-features
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 94948
+Installed-Size: 77932
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-features/ghidra-features_12.1.4-1_amd64.deb
-Size: 63711048
-SHA256: 027daf50b9b282f394fbec6cbd48a645cff45e8c5f1cf60b85ab22ba1ff23fd3
-SHA1: 3b7fa76ac889647028c8f644e4a6208639b61360
-MD5sum: 555bea3dcc1f54a4ac37ada7519d4592
+Filename: pool/main/g/ghidra-features/ghidra-features_12.2-1_amd64.deb
+Size: 54582548
+SHA256: cf6ecabbfa991dbccbea5d41de5e058d3f939a11c7ac340c54a9f40f76faf0c0
+SHA1: 7561facc1d267d4139c36cbf561d1f39a94efa40
+MD5sum: 815ddd7966881806cc4a70bc52f3ff9c
 Description: Ghidra remaining Features data (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-features).
+ Data package for unofficial Ghidra 12.2 (ghidra-features).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
 
 Package: ghidra-framework
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 82256
+Installed-Size: 82300
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-framework/ghidra-framework_12.1.4-1_amd64.deb
-Size: 58853256
-SHA256: 4be4afda288cc2e7d3f49547aec4921179612df69c643cfd47186a6683894d7f
-SHA1: 8ae7ef6bdef017bdcb880d87fbede19d72ce8beb
-MD5sum: 67d805ee6bb0c4be0cc52a568b8b3d7e
+Filename: pool/main/g/ghidra-framework/ghidra-framework_12.2-1_amd64.deb
+Size: 58237988
+SHA256: 40c0aa47b3a823f2f770a2c69705dffdb88044257f173b3b1de15e9ee45488f7
+SHA1: cd653cd30d5f292bef1d5ea1f35eec9297bee27d
+MD5sum: 622c84d1fbc67c1aae21a401fc93822a
 Description: Ghidra Framework and Processors (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-framework).
+ Data package for unofficial Ghidra 12.2 (ghidra-framework).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
 
 Package: ghidra-functionid
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 199944
+Installed-Size: 199984
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-functionid/ghidra-functionid_12.1.4-1_amd64.deb
-Size: 46516468
-SHA256: 860df0462181544f803eac1fda520679b67a830eaa2491e7f315d7b5d6fc45a5
-SHA1: a9400b47a7319ae880c72f179f4f0998a8b2f903
-MD5sum: 764f592a24e10b447ac47fa2536dff7b
+Filename: pool/main/g/ghidra-functionid/ghidra-functionid_12.2-1_amd64.deb
+Size: 46515004
+SHA256: 297c7fd5a78d2dbf9762900d6ceb98c8cbb5695fb2142c5e3ccc4fc8c7a8e3e6
+SHA1: 4e682c0b4b08bc898fa62bf99b970d8c1d7a6b56
+MD5sum: 64a56f7135d4d3e778d57f4f2c4dc27d
 Description: Ghidra FunctionID data (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-functionid).
+ Data package for unofficial Ghidra 12.2 (ghidra-functionid).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
 
 Package: ghidra-jython
-Version: 12.1.4-1
+Version: 12.2-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 55012
+Installed-Size: 55036
 Homepage: https://github.com/NationalSecurityAgency/ghidra
 Priority: optional
 Section: misc
-Filename: pool/main/g/ghidra-jython/ghidra-jython_12.1.4-1_amd64.deb
-Size: 55850252
-SHA256: eb495e9921896f6b1f2a5ef24c3635d3289dfaa3cd7c4953bb431b52d716ec2b
-SHA1: 68dc92b3c5831a2af7888e18a1edc49b91a45486
-MD5sum: 33c4671767d67f4d7f2d165604e7520f
+Filename: pool/main/g/ghidra-jython/ghidra-jython_12.2-1_amd64.deb
+Size: 55851272
+SHA256: 82918d8054ee05862be3097a0df7cda85c1d04515ed62af8c6dbeb50b47c631b
+SHA1: 7c7810640ffbfd1b74c07af0d61afac09b0f4637
+MD5sum: fc4d0308abd9a0a0d042ed136798f839
 Description: Ghidra Jython extension (unofficial)
- Data package for unofficial Ghidra 12.1.4 (ghidra-jython).
+ Data package for unofficial Ghidra 12.2 (ghidra-jython).
  .
  Pulled in automatically by the ghidra metapackage; not meant to be
  installed alone.
@@ -476,18 +476,18 @@ Description: PeaZip free file archiver utility, Qt6 build (Qt6)
  GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
 
 Package: skills-manager
-Version: 1.42.2
+Version: 1.43.0
 Architecture: amd64
-Installed-Size: 75242
+Installed-Size: 75310
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.42.2_amd64.deb
-Size: 25273700
-SHA256: a74177c31ac85638f7ca797c88e012d745c8aadc2d6b28b6960c3771387e881b
-SHA1: e077a81e20f4d85c6024656d908ee521a00c42e9
-MD5sum: 4664a74d0af1275f887d3462124df1ee
+Filename: pool/main/s/skills-manager/skills-manager_1.43.0_amd64.deb
+Size: 25296614
+SHA256: 1afe527fda8d99621cd7c4099924b98e2f778bde4ac137cea188052b00d837d7
+SHA1: ed42e2b7e03a68195387f5f3ecff80f0d00e2976
+MD5sum: 2a9054aab11a99f8a9d1e0f797a93bcf
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
