@@ -43,6 +43,21 @@ Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
  .
  Upstream project: https://github.com/shaypower/DawnPro-GUI
 
+Package: flydigi-vader4d
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Jochem Kuipers <jochem@localhost>
+Installed-Size: 400
+Depends: python3, python3-evdev, udev
+Priority: optional
+Section: misc
+Filename: pool/main/f/flydigi-vader4d/flydigi-vader4d_0.1.0-1_all.deb
+Size: 84260
+SHA256: 7211fe5fe08d67b37aa0cef749e330cc4e3087802a02f865f64dd65bc6d27955
+SHA1: 205e5125e7b8104cbdf782ad6de683886f4542a1
+MD5sum: fa1e6ca948db6beafb9b5457d4a7c32a
+Description: Userspace DInput driver for Flydigi Vader 4 Pro
+
 Package: skills-manager
 Version: 1.43.0
 Architecture: arm64
@@ -95,4 +110,19 @@ Description: DKMS driver for Uniwill / Medion ERAZER laptops
  Out-of-tree uniwill-laptop kernel module with a DMI match for the
  MEDION ERAZER Major 15 X1. Builds against the running kernel via DKMS
  and overrides the in-tree module when present.
+
+Package: vader-companion
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Jochem Kuipers <jochem@localhost>
+Installed-Size: 2032
+Depends: python3, python3-evdev, python3-pyside6.qtwidgets | python3-pyside6, flydigi-vader4d
+Priority: optional
+Section: misc
+Filename: pool/main/v/vader-companion/vader-companion_0.1.0-1_all.deb
+Size: 1512240
+SHA256: 8e0057fa12ec37a5053deb493c99700e35f79e7074903f585acf59e45d11cb8b
+SHA1: 2df23d6cbd6797e2a58b1391ddeb29150c5c75f0
+MD5sum: 5319aed4b5735357bcce1425a3d5905e
+Description: Vader Companion for Flydigi Vader 4 Pro
 
