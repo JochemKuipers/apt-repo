@@ -30,6 +30,12 @@ gh release download -R JochemKuipers/lsfg-vk-apt \
 gh release download -R rafatosta/zapzap \
 	--pattern 'zapzap-*.deb' -D "${OUT}" --clobber
 
+
+gh release download -R JochemKuipers/flydigi-spacestation-linux \
+	--pattern 'flydigi-vader4d_*.deb' -D "${OUT}" --clobber
+gh release download -R JochemKuipers/flydigi-spacestation-linux \
+	--pattern 'vader-companion_*.deb' -D "${OUT}" --clobber
+
 # Optional: upstream may not ship both arches on every release.
 gh release download -R xingkongliang/skills-manager \
 	--pattern 'skills-manager_*_amd64.deb' -D "${OUT}" --clobber || true
