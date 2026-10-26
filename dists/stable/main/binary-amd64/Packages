@@ -24,19 +24,19 @@ Description: system tray monitor and controller for adguard-cli
  upstream script.
 
 Package: bluemail
-Version: 1.143.63-1
+Version: 1.143.64-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 236
-Depends: libnotify4, libayatana-appindicator3-1 | libappindicator3-1, libxtst6, libnss3, libxss1, libgtk-3-0 | libgtk-3-0t64, libgbm1, libasound2t64 | libasound2, libdrm2, libxcomposite1, libxdamage1, libxrandr2, libxfixes3, libxcb1, libx11-6, libxext6, libxkbcommon0, libpango-1.0-0, libcairo2, libdbus-1-3, libcups2 | libcups2t64, bluemail-data (= 1.143.63-1), bluemail-data2 (= 1.143.63-1), bluemail-data3 (= 1.143.63-1), bluemail-data4 (= 1.143.63-1), bluemail-data5 (= 1.143.63-1)
+Depends: libnotify4, libayatana-appindicator3-1 | libappindicator3-1, libxtst6, libnss3, libxss1, libgtk-3-0 | libgtk-3-0t64, libgbm1, libasound2t64 | libasound2, libdrm2, libxcomposite1, libxdamage1, libxrandr2, libxfixes3, libxcb1, libx11-6, libxext6, libxkbcommon0, libpango-1.0-0, libcairo2, libdbus-1-3, libcups2 | libcups2t64, bluemail-data (= 1.143.64-1), bluemail-data2 (= 1.143.64-1), bluemail-data3 (= 1.143.64-1), bluemail-data4 (= 1.143.64-1), bluemail-data5 (= 1.143.64-1)
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail/bluemail_1.143.63-1_amd64.deb
-Size: 80956
-SHA256: 49076a5796756fdb2e118b4f5b4d3141e80966c0a64c6039d623fe0e66cbce2b
-SHA1: 79463533252cb2534f9f99763da0693daf929bfe
-MD5sum: bbafafd4676dc4594b05b1a5e14c6d60
+Filename: pool/main/b/bluemail/bluemail_1.143.64-1_amd64.deb
+Size: 80960
+SHA256: 118019a2df34da0424047e6bcba6fd7dd3d021e28c647654bc441ea0a8c6bc85
+SHA1: 98267e0a12120d81fc326913fc08190132628985
+MD5sum: 5c5e6a63f2af6ef5ec69852b332be5fb
 Description: BlueMail email and calendar client (unofficial)
  Unofficial Debian packaging of BlueMail, repacked from the official
  Snap into /opt/bluemail (same approach as the Arch AUR package).
@@ -47,18 +47,18 @@ Description: BlueMail email and calendar client (unofficial)
  Upstream: https://snapcraft.io/bluemail
 
 Package: bluemail-data
-Version: 1.143.63-1
+Version: 1.143.64-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 215820
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data/bluemail-data_1.143.63-1_amd64.deb
-Size: 66329504
-SHA256: 0a608300999ccc01f621ca01c56f9d38ca9640a394435ba6259782e39b76daf0
-SHA1: c870dc4185258026feab0f2688ac82dfe54d36b5
-MD5sum: 6388cb1a5b029b20c432336eaa083384
+Filename: pool/main/b/bluemail-data/bluemail-data_1.143.64-1_amd64.deb
+Size: 66324944
+SHA256: 6927592eadf83add525ff6409ce48c3b727b8348faae654764040a29b161759f
+SHA1: d85a0099e638acec6f3c6120cf85e023d26977a3
+MD5sum: b3738c6ef0278c32064aebaa0fa87d33
 Description: BlueMail data (bluemail-data, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -66,18 +66,18 @@ Description: BlueMail data (bluemail-data, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data2
-Version: 1.143.63-1
+Version: 1.143.64-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 118608
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data2/bluemail-data2_1.143.63-1_amd64.deb
-Size: 55775344
-SHA256: 7517d898b54f74192000ef4f5f5e4b12751ae22bb4a2b34f30b669f5db580d3e
-SHA1: d5e815da916ebec0933da58bcc299a10bf7debdf
-MD5sum: f23f4d780b5d949f3f2ba9c3c5784f04
+Filename: pool/main/b/bluemail-data2/bluemail-data2_1.143.64-1_amd64.deb
+Size: 55778296
+SHA256: 59daf93762ab3a61b5ac0df35144c54c964d51e3bc34b26b9382a9033e7d0906
+SHA1: b565f2151144ec2ad68e1344d16be875a82bcc52
+MD5sum: a4df5f976bc966c02956ed39f165d704
 Description: BlueMail data (bluemail-data2, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -85,18 +85,18 @@ Description: BlueMail data (bluemail-data2, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data3
-Version: 1.143.63-1
+Version: 1.143.64-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 77584
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data3/bluemail-data3_1.143.63-1_amd64.deb
-Size: 10653428
-SHA256: d1abf3676cce0f151c1d49c5ac7cc431eaab5e816cbe397572816edda0425799
-SHA1: 4fdbcd6641e3dbf39b4860f6dc0deb2a26b81420
-MD5sum: 51dde6c3242274eb66fd08cb06172bcf
+Filename: pool/main/b/bluemail-data3/bluemail-data3_1.143.64-1_amd64.deb
+Size: 10652408
+SHA256: fb5c7f0a3e12cfe0406c26f43956035febe0693902e00d3e779c19c0a14aafc4
+SHA1: 3a4a0ed0c49dc01d52cf5a5c23a40ae428593c73
+MD5sum: e5eba8023d5a4f03787ee6481b3220fc
 Description: BlueMail data (bluemail-data3, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -104,18 +104,18 @@ Description: BlueMail data (bluemail-data3, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data4
-Version: 1.143.63-1
+Version: 1.143.64-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 98248
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data4/bluemail-data4_1.143.63-1_amd64.deb
-Size: 32931472
-SHA256: da418ee9a93ecdc7be8d9837e4858d949089a35511b8258b16d4f18900b1bb2e
-SHA1: 9215eb07f2e3edd588b69862848c713cb44132a8
-MD5sum: 57a519e748db23a4509c7b9c42e1c8fe
+Filename: pool/main/b/bluemail-data4/bluemail-data4_1.143.64-1_amd64.deb
+Size: 32907832
+SHA256: 0d4e4d47f6594186b78b4a1e63e6cb2907b5cf40a03c6a30894195c7564ce6e4
+SHA1: 463077af26174808cc256506c5b3e636eec7c029
+MD5sum: bff43f69f341548377ee8682d77baf73
 Description: BlueMail data (bluemail-data4, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -123,18 +123,18 @@ Description: BlueMail data (bluemail-data4, unofficial)
  apt-repo Pages pool. Install with: apt install bluemail
 
 Package: bluemail-data5
-Version: 1.143.63-1
+Version: 1.143.64-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 35812
 Homepage: https://www.bluemail.me
 Priority: optional
 Section: misc
-Filename: pool/main/b/bluemail-data5/bluemail-data5_1.143.63-1_amd64.deb
-Size: 25071048
-SHA256: 5746aa3b0f67ab2927fd4a8ac2ce99fcb6b7e3e270855c9d8b09fc160c8608e1
-SHA1: c600b81ebf9aa4e0cf523e4f12c3fc3d0b112052
-MD5sum: c261217a92ade5aeace7400da9827da0
+Filename: pool/main/b/bluemail-data5/bluemail-data5_1.143.64-1_amd64.deb
+Size: 25069972
+SHA256: b0f0c4dbbc1ce5257e4a791494f05c2b830c828e3f98c26caa71b7acecfa85d4
+SHA1: a443618910c57eb1ffdc0234c61664ede67c26f6
+MD5sum: 3862c7ef6632d507900a80338c14365a
 Description: BlueMail data (bluemail-data5, unofficial)
  BlueMail application payload for the unofficial bluemail package.
  .
@@ -162,18 +162,18 @@ Description: GUI tool for controlling the Moondrop Dawn Pro AMP/DAC
  Upstream project: https://github.com/shaypower/DawnPro-GUI
 
 Package: flydigi-vader4d
-Version: 0.1.0-1
+Version: 0.1.3-1
 Architecture: all
 Maintainer: Jochem Kuipers <jochem@localhost>
-Installed-Size: 400
+Installed-Size: 248
 Depends: python3, python3-evdev, udev
 Priority: optional
 Section: misc
-Filename: pool/main/f/flydigi-vader4d/flydigi-vader4d_0.1.0-1_all.deb
-Size: 84260
-SHA256: 7211fe5fe08d67b37aa0cef749e330cc4e3087802a02f865f64dd65bc6d27955
-SHA1: 205e5125e7b8104cbdf782ad6de683886f4542a1
-MD5sum: fa1e6ca948db6beafb9b5457d4a7c32a
+Filename: pool/main/f/flydigi-vader4d/flydigi-vader4d_0.1.3-1_all.deb
+Size: 32644
+SHA256: 5cf375dc8169c3f1f03a127f1a35b9d59b601531e377e28730bcd9c8d09681ac
+SHA1: 9f79a1546efe13608821648f38ec8ec3d9d8b493
+MD5sum: b1ee45e803eca51e326161f052adfed8
 Description: Userspace DInput driver for Flydigi Vader 4 Pro
 
 Package: ghidra
@@ -564,18 +564,18 @@ Description: DKMS driver for Uniwill / Medion ERAZER laptops
  and overrides the in-tree module when present.
 
 Package: vader-companion
-Version: 0.1.0-1
+Version: 0.1.3-1
 Architecture: all
 Maintainer: Jochem Kuipers <jochem@localhost>
-Installed-Size: 2032
+Installed-Size: 1848
 Depends: python3, python3-evdev, python3-pyside6.qtwidgets | python3-pyside6, flydigi-vader4d
 Priority: optional
 Section: misc
-Filename: pool/main/v/vader-companion/vader-companion_0.1.0-1_all.deb
-Size: 1512240
-SHA256: 8e0057fa12ec37a5053deb493c99700e35f79e7074903f585acf59e45d11cb8b
-SHA1: 2df23d6cbd6797e2a58b1391ddeb29150c5c75f0
-MD5sum: 5319aed4b5735357bcce1425a3d5905e
+Filename: pool/main/v/vader-companion/vader-companion_0.1.3-1_all.deb
+Size: 1457970
+SHA256: ea47b6a2e44048dddb7c410d197d1e627d009f211e3d3207d073b1ca5431848f
+SHA1: d0ac1dfde66391c21814cd1bff20a0334c346c30
+MD5sum: 5378848580ef20ca22e4abb1f4e03bbb
 Description: Vader Companion for Flydigi Vader 4 Pro
 
 Package: zapzap
