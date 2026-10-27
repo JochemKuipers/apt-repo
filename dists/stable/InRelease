@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: Jochem Kuipers
 Label: Jochem APT
 Codename: stable
-Date: Mon, 26 Oct 2026 11:14:42 UTC
+Date: Tue, 27 Oct 2026 10:41:39 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Personal APT repository
 MD5Sum:
- 6221573508cd56694dd1b28d00c4873f 23925 main/binary-amd64/Packages
- 1d93bf522808e46f2a9f9e934306b857 7206 main/binary-amd64/Packages.gz
+ 990fbd41a92976d6b13a02e2603e49b7 23925 main/binary-amd64/Packages
+ 914bac5bf8a4f575f868aff254754588 7208 main/binary-amd64/Packages.gz
  e89f8dee08f193fa1d1c63b4573d33b2 114 main/binary-amd64/Release
- 4b277281376418d5ae9223813048e710 4743 main/binary-arm64/Packages
- 8a9dfbd98fd1faf0f5c908e9f85af46e 1992 main/binary-arm64/Packages.gz
+ cade4c8f5fb4b0ff00059b628f7e8ddf 4743 main/binary-arm64/Packages
+ 433969023f56027044619a68cd022bf0 1989 main/binary-arm64/Packages.gz
  6969440097f582c18619959fdd777d5c 114 main/binary-arm64/Release
 SHA1:
- 0e8d5170de77b2c7268aa9b1457c7f919babaea4 23925 main/binary-amd64/Packages
- 0740f54d88c2291e009ed9fe1427b9f1caa9bd13 7206 main/binary-amd64/Packages.gz
+ c2c1db0412963fdbb381c53d7df277bb8d93d898 23925 main/binary-amd64/Packages
+ 76dd21fa4e4fd46e7d62ee903d47f426ad56c433 7208 main/binary-amd64/Packages.gz
  9c094b045f41fd8c56ac50cd90e3ab29b39a1a63 114 main/binary-amd64/Release
- 12ca53fd228390d78530108f561719c7e8fefd5a 4743 main/binary-arm64/Packages
- d0f7a26ad1b861af83c54d3fea8d7a3f29910da2 1992 main/binary-arm64/Packages.gz
+ a27f0e8a944facee5e303cee0582ad05f1d16218 4743 main/binary-arm64/Packages
+ 09a9a35fa8f992937754e72345853080ee365b8b 1989 main/binary-arm64/Packages.gz
  e7bd2711cec206e220e8ac962c6529ebcae37626 114 main/binary-arm64/Release
 SHA256:
- 5dabb83c4e6a8374ed30dd9d33185001e927c169c489bff70b75b4004e1587cf 23925 main/binary-amd64/Packages
- 508b9adc4edf19a448309478ae54d622da4e277212793a63c26e0d366a338811 7206 main/binary-amd64/Packages.gz
+ 9eb2f5e959b6f755dcd440c8cbafc77d8fdc602ff79a86b87646de382676cb26 23925 main/binary-amd64/Packages
+ 217d20f25cf03c08a7596bad3b8668891ca86dd21ae168064eb3b1a1267e8f22 7208 main/binary-amd64/Packages.gz
  297474f10c6bb1b66bafb6e046044425b74c29a40d9d4ebf9a166347d3a6d9e5 114 main/binary-amd64/Release
- 536feb9c26e03d0ccda09ac7911959be56a133196030595308f942e0833bd5fe 4743 main/binary-arm64/Packages
- 2e815684109ccc06fa9a19ee53b01e4b0ec1f40617d33c7fc154471f0d8c99f0 1992 main/binary-arm64/Packages.gz
+ 52331c1d452bb24a3bfd198ea84dc600abb4b79db9bc77a3637bd8f68eff97e3 4743 main/binary-arm64/Packages
+ cc134e4b221dbd2be7dd04cb96e9c154405c4c8a5c982ec154737ca17615c599 1989 main/binary-arm64/Packages.gz
  7a8a4032106532f9f676500fdde6bff92c077a3c2a0356fbd9b4abf2a08e3a6c 114 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQRT0axRz+Y7Qa4GFfkz0dGn9iExSwUCat82IgAKCRAz0dGn9iEx
-S6XeAP0bECaGTBYGywQEDfVKYWehOkx++MTcvwBtvt0DApHy6AD/fkaEoNxNQag7
-7GDhK+v7ZMux5OfNxOcaPV1LTwrajgY=
-=V5xk
+iHUEARYKAB0WIQRT0axRz+Y7Qa4GFfkz0dGn9iExSwUCauB/5AAKCRAz0dGn9iEx
+S8zTAQCup7leXlAASSGoc49wWyeK0iQBGAC7TBGmxXwP1+gScwD+Pkz+nCrqyCzk
+7spiiCYXg5aiICuatIqPuhPheGC9HQY=
+=aF6p
 -----END PGP SIGNATURE-----
