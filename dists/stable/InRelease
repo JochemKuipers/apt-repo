@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Jochem Kuipers
 Label: Jochem APT
 Codename: stable
-Date: Thu, 05 Nov 2026 13:18:30 UTC
+Date: Fri, 06 Nov 2026 13:01:22 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Personal APT repository
@@ -31,8 +31,8 @@ SHA256:
  7a8a4032106532f9f676500fdde6bff92c077a3c2a0356fbd9b4abf2a08e3a6c 114 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQRT0axRz+Y7Qa4GFfkz0dGn9iExSwUCauyCJwAKCRAz0dGn9iEx
-S/jcAPwLXWsHbKZv8Q9htsM+IBDQZvZTbVKywwXScGo4d9OYZwD/d/ukK9q7q7te
-weiOoUBiYAXwPKaoUofnLeeUpB/48gs=
-=KXst
+iHUEARYKAB0WIQRT0axRz+Y7Qa4GFfkz0dGn9iExSwUCau3PogAKCRAz0dGn9iEx
+S2HHAP9OwzjJow5qqzX67AwOTj1+Xh9DloE09QI2KUJOhSMj3AD9EBzlF13a+o+k
+IGtKiqNPNoFLKci45jJ1+J+tx/evVAg=
+=qC6h
 -----END PGP SIGNATURE-----
