@@ -59,18 +59,18 @@ MD5sum: b1ee45e803eca51e326161f052adfed8
 Description: Userspace DInput driver for Flydigi Vader 4 Pro
 
 Package: skills-manager
-Version: 1.43.4
+Version: 1.44.0
 Architecture: arm64
-Installed-Size: 71177
+Installed-Size: 71623
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.43.4_arm64.deb
-Size: 26598756
-SHA256: e253ae5fdd674982762606777490c1bcc0e0b89a0e32be9e9cef8436e2e4b4a2
-SHA1: 5a5b1fc1f2783dc2886529b791d52fedd40c8f91
-MD5sum: df411b85b230a303a2402c52f680a182
+Filename: pool/main/s/skills-manager/skills-manager_1.44.0_arm64.deb
+Size: 26743952
+SHA256: 68f899b1b5a7ff483c6303349699034dde8f3074cdfc8a8037d0ee51cafe76bf
+SHA1: 3bc1eb0818da111015c954d7c71e15feaf826493
+MD5sum: 21f02793d976c6656cfa5a42816fce06
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 

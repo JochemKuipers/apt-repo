@@ -491,18 +491,18 @@ Description: PeaZip free file archiver utility, Qt6 build (Qt6)
  GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
 
 Package: skills-manager
-Version: 1.43.4
+Version: 1.44.0
 Architecture: amd64
-Installed-Size: 75224
+Installed-Size: 75621
 Maintainer: tianliang
 Depends: libappindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: misc
-Filename: pool/main/s/skills-manager/skills-manager_1.43.4_amd64.deb
-Size: 25279440
-SHA256: 019a720df71245d347b87e4a01fb70d064ca6db66de29c9a67a9132a792af789
-SHA1: db113965dc0a7eafd4e7840fdfc61514a98b3a30
-MD5sum: 9e99a2483893f7fee13446ee894894a5
+Filename: pool/main/s/skills-manager/skills-manager_1.44.0_amd64.deb
+Size: 25415844
+SHA256: 9dd159c0ee5cd726862c484ca9df91e46434b45f47e3a099c2dd67736196ed33
+SHA1: 4ad83c31bdd03f48b66b17dd6de7358ecb00f59a
+MD5sum: d281c3fb721cc03a684e6ad081630855
 Description: Skills Manager - AI Agent Skills Central Manager
  (none)
 
