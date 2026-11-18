@@ -1,27 +1,27 @@
 Origin: Jochem Kuipers
 Label: Jochem APT
 Codename: stable
-Date: Tue, 17 Nov 2026 14:37:55 UTC
+Date: Wed, 18 Nov 2026 14:15:02 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Personal APT repository
 MD5Sum:
- 1b288b38e45e12952313ec90c45ead88 23925 main/binary-amd64/Packages
- 805247faeb7d5f2e2738d03a1feddbff 7218 main/binary-amd64/Packages.gz
+ 545506492f6f604ae7b2ce82e7df9ab8 23925 main/binary-amd64/Packages
+ a183a7388e69ee6bda2a45b76e53d461 7216 main/binary-amd64/Packages.gz
  e89f8dee08f193fa1d1c63b4573d33b2 114 main/binary-amd64/Release
  364085c92b23ffb0cf1f2f7044fb54dd 4743 main/binary-arm64/Packages
  d063ad585aa2c8de6a8fb62408a3736a 1996 main/binary-arm64/Packages.gz
  6969440097f582c18619959fdd777d5c 114 main/binary-arm64/Release
 SHA1:
- d02d7311a4c7dce2d5e87dbb721ec372ccf55575 23925 main/binary-amd64/Packages
- 0a5e08b755eeb1179cffa75d3b80881230337485 7218 main/binary-amd64/Packages.gz
+ d7f1a2842f5fbec23a13aaa37df8e5539f2bb427 23925 main/binary-amd64/Packages
+ 7b9380b9cd0530798c493f220bb60a313296dca9 7216 main/binary-amd64/Packages.gz
  9c094b045f41fd8c56ac50cd90e3ab29b39a1a63 114 main/binary-amd64/Release
  649d19033e598bf1cefd22038c6208d8a1434d63 4743 main/binary-arm64/Packages
  04fc29abf98a73c61d1c6d2f8b901dabeb0b8077 1996 main/binary-arm64/Packages.gz
  e7bd2711cec206e220e8ac962c6529ebcae37626 114 main/binary-arm64/Release
 SHA256:
- e15ff9fb077c315196a3e3f565144963b4305222828ad2034eba7587145d2b80 23925 main/binary-amd64/Packages
- 28d44a3bc587b1f752d331608ad404500030f57c9ce1a0db1232dd710d43be28 7218 main/binary-amd64/Packages.gz
+ 8a6793f675f05150e52205e3d66e93a3d5989d53de77c13d8b308e55e79eae1f 23925 main/binary-amd64/Packages
+ fe2d58293ef0d57a8fab43809db125a783b5310d080a8a703f88ae4b036a52b9 7216 main/binary-amd64/Packages.gz
  297474f10c6bb1b66bafb6e046044425b74c29a40d9d4ebf9a166347d3a6d9e5 114 main/binary-amd64/Release
  d05eb0b7702e78614e1478827726a83bfe91fc274f4bdec007c309aa779e678d 4743 main/binary-arm64/Packages
  28de0d86a7efc7592f94573deea04c5a7da1938ab4b1b0490ef1ae2f2f31cf78 1996 main/binary-arm64/Packages.gz
