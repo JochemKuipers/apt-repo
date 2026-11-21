@@ -411,10 +411,10 @@ Homepage: https://lsfg-vk.dev
 Priority: optional
 Section: misc
 Filename: pool/main/l/lsfg-vk/lsfg-vk_2.0.0-1_amd64.deb
-Size: 561464
-SHA256: 2bbaf25b7b3158b37370ef706d6aae25a383b8bcd169dc935d2b595e93009f99
-SHA1: e27f6349bcf101b9b049c5ddc9ea62180772e9e7
-MD5sum: 70eb0ab609342656a7587f288e12027e
+Size: 562048
+SHA256: 240711df85f55a31e15724599d9f8722d1f385265f227df62f52d4efc196b8f7
+SHA1: 3ea6c03da3901ed1718ee2ea42751e54b413536d
+MD5sum: e81448c32c22fedff3b6938217425ab8
 Description: Lossless Scaling frame generation for Vulkan (unofficial)
  Unofficial Debian packaging of lsfg-vk, a Vulkan layer that ports
  Lossless Scaling frame generation to Linux.
@@ -425,7 +425,7 @@ Description: Lossless Scaling frame generation for Vulkan (unofficial)
  Upstream: https://lsfg-vk.dev/
 
 Package: lsfg-vk-git
-Version: 2.0.0.r16.g21fbd1b-1
+Version: 2.0.0.r19.gbdcea47-1
 Architecture: amd64
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
 Installed-Size: 3484
@@ -436,16 +436,16 @@ Provides: lsfg-vk
 Homepage: https://lsfg-vk.dev
 Priority: optional
 Section: misc
-Filename: pool/main/l/lsfg-vk-git/lsfg-vk-git_2.0.0.r16.g21fbd1b-1_amd64.deb
-Size: 588516
-SHA256: 6b13b90a3d2bbb65c062b73e028f00c0c6490d00939b14071be871af44cf8fa1
-SHA1: 8d37a6d82a1ee9b5b83be50be0af783992611121
-MD5sum: 0cda61160c54f97ca330d7b10e3dc2b7
+Filename: pool/main/l/lsfg-vk-git/lsfg-vk-git_2.0.0.r19.gbdcea47-1_amd64.deb
+Size: 589476
+SHA256: bf2f7f0a0feda3f3f577dbc5372f9cc88c8a291c535ff9106051e134a322a374
+SHA1: f6b1934a68437d411244eff91e518a1cb80112b2
+MD5sum: 3eba3c24372a19f812fd9ee5c510bd4d
 Description: Lossless Scaling frame generation for Vulkan (unofficial)
  Unofficial Debian packaging of the latest git build of lsfg-vk,
  a Vulkan layer that ports Lossless Scaling frame generation to Linux.
  .
- Built from 2.0.0.r16.g21fbd1b at https://builds.lsfg-vk.dev.
+ Built from 2.0.0.r19.gbdcea47 at https://builds.lsfg-vk.dev.
  Conflicts with the stable lsfg-vk package.
  .
  Upstream: https://lsfg-vk.dev/
