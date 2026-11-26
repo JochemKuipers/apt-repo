@@ -1,18 +1,18 @@
 Package: adguard-tray
-Version: 2.4.0-1
+Version: 2.4.1-1
 Architecture: all
 Maintainer: Jochem Kuipers <jochem@kuipers.cc>
-Installed-Size: 1517
+Installed-Size: 1520
 Depends: python3:any, python3, python3-pyqt6, python3-yaml, libnotify-bin, pkexec | policykit-1
 Recommends: libnss3-tools
 Homepage: https://github.com/RiDDiX/adguard-tray
 Priority: optional
 Section: misc
-Filename: pool/main/a/adguard-tray/adguard-tray_2.4.0-1_all.deb
-Size: 269298
-SHA256: 86ae188cab104b2f811764dd8f86528b51b83e89c4f70be41c21e6331ffb15c3
-SHA1: 0408e9c8aa978382ba57237313105b8c73db7358
-MD5sum: 5f42b3da29a0c7dae543fbb1d1b77d8f
+Filename: pool/main/a/adguard-tray/adguard-tray_2.4.1-1_all.deb
+Size: 269996
+SHA256: 6e0b6cda4c1a8c3bae3b383cdbcc10a5c5e7083148c293153793d01a32abbf57
+SHA1: 7eec69ab25f3a79309935e2fdbf0d0c2c2710781
+MD5sum: 491f69b6195148a8a615c7ada2fb73ae
 Description: system tray monitor and controller for adguard-cli
  Shows AdGuard status in the system tray, starts and stops adguard-cli,
  and manages filters, userscripts, HTTPS certificates and activity
